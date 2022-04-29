@@ -1,0 +1,1523 @@
+.main-page-container {
+  min-height: 100vh;
+}
+
+.main-page-container .main-page {
+  width: 1440px;
+  height: 2951px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1440px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.main-page-container .main-page .header {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  background-color: #314dca;
+  z-index: 7;
+}
+
+.main-page-container .main-page .header .menu {
+  top: 42.5px;
+  left: 501.5px;
+  width: 437px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .header .menu .home {
+  color: #ff5e95;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .header .menu .vocabulary {
+  color: white;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .header .menu .grammar {
+  color: white;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .header .menu .tests {
+  color: white;
+  height: auto;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .banner {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 669px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  background-color: #314dca;
+  z-index: 6;
+}
+
+.main-page-container .main-page .banner .slogan1 {
+  top: 274px;
+  left: 125px;
+  color: white;
+  width: 554px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 500;
+  line-height: 52px;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .banner .slogan2 {
+  top: 324px;
+  left: 125px;
+  color: #ff5e95;
+  width: 554px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 52px;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .banner .btn {
+  top: 419px;
+  left: 125px;
+  width: 255px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: transparent;
+  border-radius: 50px;
+  background-color: #314dca;
+}
+
+.main-page-container .main-page .banner .btn .shadow {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 56px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-width: 0px;
+  border-radius: 4px;
+  background-color: #314dca;
+}
+
+.main-page-container .main-page .banner .btn .text {
+  top: 16px;
+  left: 0px;
+  color: white;
+  width: 255px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .banner .illustr {
+  top: 99px;
+  left: 699px;
+  width: 649px;
+  height: 560px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .banner .logo {
+  top: 140px;
+  left: 120px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 72px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .welcome {
+  top: 730px;
+  left: 143px;
+  width: 1154px;
+  height: 241px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  z-index: 5;
+}
+
+.main-page-container .main-page .welcome .pink-box {
+  top: 0px;
+  left: 577px;
+  width: 380px;
+  height: 90px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+  background-color: #ff5e95;
+}
+
+.main-page-container .main-page .welcome .text {
+  top: 0px;
+  left: 0px;
+  color: var(--dl-color-default-blackdff46);
+  width: 1154px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .welcome .text .text1 {
+  color: #222222;
+  width: 1154px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .welcome .text .text2 {
+  color: white;
+  width: 1154px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .welcome .description {
+  top: 113px;
+  left: 61px;
+  color: var(--dl-color-default-blackdff46);
+  width: 1032px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .welcome .ellipses {
+  top: 45px;
+  left: 6px;
+  width: 104px;
+  height: 123px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .welcome .ellipses .big {
+  top: 59px;
+  width: 64;
+  height: 64;
+  position: absolute;
+}
+
+.main-page-container .main-page .welcome .ellipses .medium {
+  top: 20px;
+  left: 54px;
+  width: 50;
+  height: 50;
+  position: absolute;
+}
+
+.main-page-container .main-page .welcome .ellipses .small {
+  left: 12px;
+  width: 40;
+  height: 40;
+  position: absolute;
+}
+
+.main-page-container .main-page .sections {
+  top: 994px;
+  left: 146px;
+  width: 1148px;
+  height: 345px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  z-index: 4;
+}
+
+.main-page-container .main-page .sections .tests {
+  top: 11px;
+  left: 815px;
+  width: 333px;
+  height: 334.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .sections .tests .btn {
+  top: 278.6px;
+  left: 24px;
+  width: 255px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: #74d579;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+}
+
+.main-page-container .main-page .sections .tests .btn .border {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 56px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #11b5e4;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.main-page-container .main-page .sections .tests .btn .explore {
+  top: 16px;
+  left: 0px;
+  color: #74d579;
+  width: 255px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .tests .description {
+  top: 229px;
+  left: 0px;
+  color: black;
+  width: 333px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .tests .title {
+  top: 196.6px;
+  left: 0px;
+  color: black;
+  width: 303px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .tests .icon {
+  top: 1.16px;
+  left: 50px;
+  width: 201px;
+  height: 201px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .sections .grammar {
+  top: 11px;
+  left: 410px;
+  width: 333px;
+  height: 334px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .sections .grammar .btn {
+  top: 278px;
+  left: 23px;
+  width: 255px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: #ff5e95;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+}
+
+.main-page-container .main-page .sections .grammar .btn .border {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 56px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #11b5e4;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.main-page-container .main-page .sections .grammar .btn .explore {
+  top: 16px;
+  left: 0px;
+  color: #ff5e95;
+  width: 255px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .grammar .description {
+  top: 228px;
+  left: 0px;
+  color: black;
+  width: 333px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .grammar .title {
+  top: 199px;
+  left: 0px;
+  color: black;
+  width: 303px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .grammar .icon {
+  top: 1.16px;
+  left: 49.419921875px;
+  width: 201px;
+  height: 201px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .sections .vocabulary {
+  top: 7px;
+  left: 0px;
+  width: 333px;
+  height: 334px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .sections .vocabulary .btn {
+  top: 278px;
+  left: 24px;
+  width: 255px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: #4f66d1;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+}
+
+.main-page-container .main-page .sections .vocabulary .btn .border {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 56px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #11b5e4;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.main-page-container .main-page .sections .vocabulary .btn .explore {
+  top: 16px;
+  left: 0px;
+  color: #4f66d1;
+  width: 255px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .vocabulary .description {
+  top: 228px;
+  left: 0px;
+  color: black;
+  width: 333px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .vocabulary .title {
+  top: 198.6px;
+  left: 0px;
+  color: black;
+  width: 303px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Heebo;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .sections .vocabulary .icon {
+  top: 1.16px;
+  left: 50.419921875px;
+  width: 201px;
+  height: 201px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .mobile-app {
+  top: 1388px;
+  left: 174px;
+  width: 1091px;
+  height: 700.38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  z-index: 3;
+}
+
+.main-page-container .main-page .mobile-app .green-box {
+  top: 133.96px;
+  left: 780px;
+  width: 213px;
+  height: 108px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+  background-color: #4bcd5c;
+}
+
+.main-page-container .main-page .mobile-app .study {
+  top: 83.97px;
+  left: 655px;
+  color: var(--dl-color-default-blackdff46);
+  width: 204px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 500;
+  line-height: 52px;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .slogan {
+  top: 133.97px;
+  left: 653px;
+  color: #74d579;
+  width: 427px;
+  height: auto;
+  position: absolute;
+  font-size: 58px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 52px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .slogan .text1 {
+  color: #74d579;
+  width: 427px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .slogan .text2 {
+  color: white;
+  width: 427px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .slogan .text3 {
+  color: #74d579;
+  width: 427px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .slogan .text4 {
+  color: white;
+  width: 427px;
+  height: auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .description {
+  top: 251.97px;
+  left: 653px;
+  color: black;
+  width: 422px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 500;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .mobile-app .googleplay {
+  top: 321.97px;
+  left: 653px;
+  width: 187px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .mobile-app .appstore {
+  top: 321.97px;
+  left: 830px;
+  width: 176px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .mobile-app .curve {
+  left: 710.44px;
+  width: 387;
+  height: 63;
+  position: absolute;
+}
+
+.main-page-container .main-page .mobile-app .illustr {
+  top: 45px;
+  left: 0px;
+  width: 487px;
+  height: 585px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .call-to-action {
+  top: 2095px;
+  left: 143px;
+  width: 1154px;
+  height: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  z-index: 2;
+}
+
+.main-page-container .main-page .call-to-action .description {
+  top: 84px;
+  left: 105px;
+  color: #74d579;
+  width: 943px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 37.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .call-to-action .pink-box {
+  top: 2px;
+  left: 157px;
+  width: 837px;
+  height: 90px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+  background-color: #ff5e95;
+}
+
+.main-page-container .main-page .call-to-action .slogan {
+  top: 0px;
+  left: 0px;
+  color: white;
+  width: 1154px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .call-to-action .btn {
+  top: 153px;
+  left: 399px;
+  width: 329px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: transparent;
+  border-radius: 50px;
+  background-color: #74d579;
+}
+
+.main-page-container .main-page .call-to-action .btn .bg {
+  top: 0px;
+  left: 0px;
+  width: 329px;
+  height: 72px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #74d579;
+  border-width: 0px;
+  border-radius: 4px;
+  background-color: #74d579;
+}
+
+.main-page-container .main-page .call-to-action .btn .text {
+  top: 16px;
+  left: 0px;
+  color: white;
+  width: 329px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer {
+  top: 2459px;
+  left: 0px;
+  width: 1440px;
+  height: 493px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  background-color: #314dca;
+  z-index: 1;
+}
+
+.main-page-container .main-page .footer .service-section {
+  top: 127px;
+  left: 712px;
+  width: 84px;
+  height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .service-section .service {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .service-section .download {
+  top: 50px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .service-section .vocabulary {
+  top: 90px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .service-section .grammar {
+  top: 130px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .service-section .tests {
+  top: 170px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .service-section .resourses {
+  top: 210px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .company-section {
+  top: 127px;
+  left: 931px;
+  width: 82px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .company-section .company {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .company-section .about-us {
+  top: 90px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .company-section .faq {
+  top: 50px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .company-section .support {
+  top: 130px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .privacy-section {
+  top: 127px;
+  left: 1151px;
+  width: 97px;
+  height: 118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .privacy-section .privacy {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .privacy-section .terms-of-use {
+  top: 50px;
+  left: 0px;
+  color: white;
+  width: 97px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .slogan {
+  top: 182px;
+  left: 126px;
+  color: #74d579;
+  width: 252px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .download {
+  top: 311px;
+  left: 126px;
+  color: white;
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-page-container .main-page .footer .socnet {
+  top: 241px;
+  left: 126px;
+  width: 194px;
+  height: 34px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .googleplay {
+  top: 348px;
+  left: 126px;
+  width: 187px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .appstore {
+  top: 348px;
+  left: 303px;
+  width: 176px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.main-page-container .main-page .footer .logo {
+  top: 92px;
+  left: 121px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 72px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main-page.css.map */
