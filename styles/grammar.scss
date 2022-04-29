@@ -141,7 +141,7 @@
             .slogan {
                 top: 97px;
                 left: 0px;
-                color: var(--dl-color-default-blackdff46);
+                color: rgba(34, 34, 34, 1);
                 height: auto;
                 position: absolute;
                 font-size: 24px;
@@ -158,7 +158,7 @@
             .text {
                 top: 0px;
                 left: 149px;
-                color: var(--dl-color-default-blackdff46);
+                color: rgba(34, 34, 34, 1);
                 height: auto;
                 position: absolute;
                 font-size: 64px;
@@ -177,7 +177,7 @@
             top: 440px;
             left: 185px;
             width: 1070px;
-            height: 550.31298828125px;
+            height: 550.3px;
             display: flex;
             position: absolute;
             box-sizing: border-box;
@@ -185,10 +185,10 @@
             border-color: transparent;
             z-index: 2;
             .begoingto {
-                top: 390.00048828125px;
-                left: 726.3685302734375px;
+                top: 390px;
+                left: 726.4px;
                 width: 344px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -211,8 +211,8 @@
                 }
             
                 .logo {
-                    top: 24.656246185302734px;
-                    left: 45.2587890625px;
+                    top: 24.7px;
+                    left: 45.25px;
                     width: 109px;
                     height: 111px;
                     display: flex;
@@ -243,7 +243,7 @@
                 .descr {
                     top: 26.2px;
                     left: 172.5px;
-                    color: var(--dl-color-default-blackdff46);
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -259,8 +259,8 @@
                 }
             }
             .presperf {
-                top: 390.00048828125px;
-                left: 361.94970703125px;
+                top: 390px;
+                left: 362px;
                 width: 344px;
                 height: 160.3125px;
                 display: flex;
@@ -285,7 +285,7 @@
                 }
             
                 .logo {
-                    top: 35.65625px;
+                    top: 35.6px;
                     left: 16px;
                     width: 160px;
                     height: 89px;
@@ -310,7 +310,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -336,9 +336,9 @@
                 }
             
                 .descr {
-                    top: 39.65625px;
-                    left: 172.54931640625px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 39.6px;
+                    left: 172.5px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -354,10 +354,10 @@
                 }
             }
             .pastcontin {
-                top: 390.00048828125px;
+                top: 390px;
                 left: 0px;
                 width: 339px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -374,11 +374,11 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 .logo {
-                    top: 35.65625px;
+                    top: 35.6px;
                     left: 30px;
                     width: 147px;
                     height: 110px;
@@ -403,7 +403,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -428,9 +428,9 @@
                     }
                 }
                 .decr {
-                    top: 26.15625px;
-                    left: 170.556640625px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 26.2px;
+                    left: 170.5px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -447,9 +447,9 @@
             }
             .pastsimple {
                 top: 195px;
-                left: 726.36865234375px;
+                left: 726.4px;
                 width: 344px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -471,7 +471,7 @@
                 }
                 
                 .logo {
-                    top: 35.65625px;
+                    top: 35.6px;
                     left: 30px;
                     width: 131px;
                     height: 108px;
@@ -495,7 +495,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -520,9 +520,9 @@
                     }
                 }
                 .descr {
-                    top: 39.65625px;
-                    left: 172.548828125px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 39.6px;
+                    left: 172.5px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -539,9 +539,9 @@
             }
             .futuresimple {
                 top: 195px;
-                left: 361.94970703125px;
+                left: 362px;
                 width: 344px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -558,11 +558,11 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 .logo {
-                    top: 35.65625px;
+                    top: 35.6px;
                     left: 36px;
                     width: 117px;
                     height: 89px;
@@ -586,7 +586,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -611,9 +611,9 @@
                     }
                 }
                 .descr {
-                    top: 39.65625px;
-                    left: 172.80029296875px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 39.6px;
+                    left: 172.8px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -632,7 +632,7 @@
                 top: 195px;
                 left: 0px;
                 width: 339px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -649,11 +649,11 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 .logo {
-                    top: 35.65625px;
+                    top: 35.6px;
                     left: 29px;
                     width: 137px;
                     height: 110px;
@@ -677,7 +677,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -702,9 +702,9 @@
                     }
                 }
                 .descr {
-                    top: 26.15625px;
-                    left: 170.5810546875px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 26.15px;
+                    left: 170.6px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -721,9 +721,9 @@
             }
             .pressimple {
                 top: 0px;
-                left: 728.33740234375px;
+                left: 728.4px;
                 width: 342px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -740,13 +740,13 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 
                 .logo {
-                    top: 35.65625px;
-                    left: 29.2900390625px;
+                    top: 35.6px;
+                    left: 29.3px;
                     width: 137px;
                     height: 89px;
                     display: flex;
@@ -796,9 +796,9 @@
                 }
                 
                 .descr {
-                    top: 39.656211853027344px;
-                    left: 170.580078125px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 39.6px;
+                    left: 170.6px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -815,9 +815,9 @@
             }
             .modalcan {
                 top: 0px;
-                left: 363.9189453125px;
+                left: 364px;
                 width: 342px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -834,13 +834,13 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 
                 .logo {
-                    top: 43.15625px;
-                    left: 42.7900390625px;
+                    top: 43.15px;
+                    left: 42.8px;
                     width: 110px;
                     height: 74px;
                     display: flex;
@@ -861,7 +861,7 @@
                         text-align: center;
                         font-family: Noto Sans;
                         font-weight: 900;
-                        line-height: 103.20000648498535%;
+                        line-height: 103.2%;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -870,9 +870,9 @@
                 
                 
                 .descr {
-                    top: 39.65625px;
-                    left: 170.6376953125px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 39.6px;
+                    left: 170.6px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;
@@ -891,7 +891,7 @@
                 top: 0px;
                 left: 0px;
                 width: 341px;
-                height: 160.3125px;
+                height: 160.3px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -908,12 +908,12 @@
                     border-color: rgba(49, 77, 202, 1);
                     border-style: solid;
                     border-width: 2.5px;
-                    border-radius: 31.640625px;
+                    border-radius: 31.6px;
                     background-color: rgba(255, 255, 255, 1);
                 }
                 
                 .logo {
-                    top: 31.65625px;
+                    top: 31.6px;
                     left: 50px;
                     width: 95px;
                     height: 95px;
@@ -938,7 +938,7 @@
                     text-align: center;
                     font-family: Noto Sans;
                     font-weight: 800;
-                    line-height: 103.20000648498535%;
+                    line-height: 103.2%;
                     font-stretch: normal;
                     text-decoration: none;
                 }
@@ -958,7 +958,7 @@
                     text-align: center;
                     font-family: Noto Sans;
                     font-weight: 900;
-                    line-height: 103.20000648498535%;
+                    line-height: 103.2%;
                     font-stretch: normal;
                     text-decoration: none;
                 }
@@ -966,9 +966,9 @@
                 
                 
                 .descr {
-                    top: 26.15625px;
-                    left: 170.5810546875px;
-                    color: var(--dl-color-default-blackdff46);
+                    top: 26.15px;
+                    left: 170.6px;
+                    color: rgba(34, 34, 34, 1);
                     width: 146px;
                     height: auto;
                     position: absolute;

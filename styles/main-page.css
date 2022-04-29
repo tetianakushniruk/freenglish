@@ -314,7 +314,7 @@
 .main-page-container .main-page .welcome .text {
   top: 0px;
   left: 0px;
-  color: var(--dl-color-default-blackdff46);
+  color: #222222;
   width: 1154px;
   height: auto;
   position: absolute;
@@ -362,7 +362,7 @@
 .main-page-container .main-page .welcome .description {
   top: 113px;
   left: 61px;
-  color: var(--dl-color-default-blackdff46);
+  color: #222222;
   width: 1032px;
   height: auto;
   position: absolute;
@@ -679,7 +679,7 @@
 
 .main-page-container .main-page .sections .grammar .icon {
   top: 1.16px;
-  left: 49.419921875px;
+  left: 49.4px;
   width: 201px;
   height: 201px;
   position: absolute;
@@ -803,7 +803,7 @@
 
 .main-page-container .main-page .sections .vocabulary .icon {
   top: 1.16px;
-  left: 50.419921875px;
+  left: 50.4px;
   width: 201px;
   height: 201px;
   position: absolute;
@@ -847,7 +847,7 @@
 .main-page-container .main-page .mobile-app .study {
   top: 83.97px;
   left: 655px;
-  color: var(--dl-color-default-blackdff46);
+  color: #222222;
   width: 204px;
   height: auto;
   position: absolute;

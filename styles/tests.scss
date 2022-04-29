@@ -1,0 +1,662 @@
+.tests-container {
+    min-height: 100vh;
+}
+
+.tests-page {
+    width: 1440px;
+    height: 1580px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+
+    .header {
+        top: 0px;
+        left: 0px;
+        width: 1440px;
+        height: 105px;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: flex-start;
+        flex-shrink: 1;
+        border-color: transparent;
+        background-color: rgba(49, 77, 202, 1);
+        z-index: 5;
+
+        .menu {
+            top: 42.5px;
+            left: 754px;
+            width: 437px;
+            height: 20px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: center;
+            border-color: transparent;
+
+            .home {
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                margin: 0 56px 0 0;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 300px;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .vocabulary {
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                margin: 0 56px 0 0;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 300px;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .grammar {
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                margin: 0 56px 0 0;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 300px;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .tests {
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 700;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .logo {
+            top: 25.5px;
+            left: 249px;
+            color: rgba(255, 255, 255, 1);
+            width: 209px;
+            height: auto;
+            position: absolute;
+            font-size: 40px;
+            align-self: auto;
+            font-style: normal;
+            text-align: left;
+            font-family: Noto Sans;
+            font-weight: 900;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+    }
+
+
+    .ellipses {
+        top: 80px;
+        left: 583px;
+        width: 274;
+        height: 129;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .title {
+        top: 200px;
+        left: 382px;
+        width: 677px;
+        height: 130px;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: flex-start;
+        flex-shrink: 1;
+        border-color: transparent;
+        z-index: 3;
+
+        .slogan {
+            top: 97px;
+            left: 0px;
+            color: rgba(34, 34, 34, 1);
+            height: auto;
+            position: absolute;
+            font-size: 24px;
+            align-self: auto;
+            font-style: normal;
+            text-align: center;
+            font-family: Noto Sans;
+            font-weight: 400px;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .text {
+            top: 0px;
+            left: 261px;
+            color: rgba(34, 34, 34, 1);
+            height: auto;
+            position: absolute;
+            font-size: 64px;
+            align-self: auto;
+            font-style: normal;
+            text-align: center;
+            font-family: Noto Sans;
+            font-weight: 400px;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+    }
+
+    .topics {
+        top: 460.6px;
+        left: 174px;
+        width: 1090px;
+        height: 420px;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: flex-start;
+        flex-shrink: 1;
+        border-color: transparent;
+        z-index: 2;
+
+        .forschools-section {
+            top: 200px;
+            left: 75.1px;
+            width: 220px;
+            height: 220px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .ellipse {
+                width: 220px;
+                height: 220px;
+                border: 2.5px solid #314DCA;
+                border-radius: 50%;
+                position: absolute;
+            }
+
+            .text {
+                top: 64px;
+                left: 0px;
+                color: rgba(75, 205, 92, 1);
+                right: 0px;
+                height: auto;
+                margin: auto;
+                position: absolute;
+                font-size: 45px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: 103.2%;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .generaleng-section {
+            top: 0px;
+            left: 434.6px;
+            width: 220px;
+            height: 220px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .ellipse {
+                width: 220px;
+                height: 220px;
+                border: 2.5px solid #314DCA;
+                border-radius: 50%;
+                position: absolute;
+            }
+
+            .text {
+                top: 64px;
+                left: 0px;
+                color: rgba(255, 94, 149, 1);
+                right: 0px;
+                height: auto;
+                margin: auto;
+                position: absolute;
+                font-size: 45px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: 103.2%;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .businesseng-section {
+            top: 200px;
+            left: 794px;
+            width: 220px;
+            height: 220px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .ellipse {
+                width: 220px;
+                height: 220px;
+                border: 2.5px solid #314DCA;
+                border-radius: 50%;
+                position: absolute;
+            }
+
+            .text {
+                top: 64px;
+                left: 0px;
+                color: rgba(75, 205, 92, 1);
+                right: 0px;
+                height: auto;
+                margin: auto;
+                position: absolute;
+                font-size: 45px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: 103.2%;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .curve {
+            top: 108.8px;
+            width: 1090;
+            height: 193;
+            position: absolute;
+        }
+    }
+
+    .footer {
+        top: 1087px;
+        left: 0px;
+        width: 1440px;
+        height: 493px;
+        display: flex;
+        position: absolute;
+        box-sizing: border-box;
+        align-items: flex-start;
+        flex-shrink: 1;
+        border-color: transparent;
+        background-color: rgba(49, 77, 202, 1);
+        z-index: 1;
+
+        .service-section {
+            top: 127px;
+            left: 712px;
+            width: 84px;
+            height: 240px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .service {
+                top: 0px;
+                left: 0px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 500;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .download {
+                top: 50px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .vocabulary {
+                top: 90px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .grammar {
+                top: 130px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .tests {
+                top: 170px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .resourses {
+                top: 210px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .company-section {
+            top: 127px;
+            left: 904px;
+            width: 82px;
+            height: 160px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .company {
+                top: 0px;
+                left: 0px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 500;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .about-us {
+                top: 90px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .faq {
+                top: 50px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .support {
+                top: 130px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .privacy-section {
+            top: 127px;
+            left: 1094px;
+            width: 97px;
+            height: 118px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+
+            .privacy {
+                top: 0px;
+                left: 0px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 500;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .terms-of-use {
+                top: 50px;
+                left: 0px;
+                color: rgba(255, 255, 255, 1);
+                width: 97px;
+                height: auto;
+                position: absolute;
+                font-size: 16px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .slogan {
+            top: 182px;
+            left: 255px;
+            color: rgba(116, 213, 121, 1);
+            width: 252px;
+            height: auto;
+            position: absolute;
+            font-size: 18px;
+            align-self: auto;
+            font-style: normal;
+            text-align: left;
+            font-family: Rubik;
+            font-weight: 400px;
+            line-height: 30px;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .download {
+            top: 311px;
+            left: 255px;
+            color: rgba(255, 255, 255, 1);
+            width: 130px;
+            height: auto;
+            position: absolute;
+            font-size: 18px;
+            align-self: auto;
+            font-style: normal;
+            text-align: left;
+            font-family: Rubik;
+            font-weight: 400px;
+            line-height: 30px;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+
+        .socnet {
+            top: 241px;
+            left: 255px;
+            width: 194px;
+            height: 34px;
+            position: absolute;
+            object-fit: cover;
+            border-color: transparent;
+        }
+
+        .googleplay {
+            top: 348px;
+            left: 255px;
+            width: 187px;
+            height: 52px;
+            position: absolute;
+            object-fit: cover;
+            border-color: transparent;
+        }
+
+        .appstore {
+            top: 348px;
+            left: 432px;
+            width: 176px;
+            height: 52px;
+            position: absolute;
+            object-fit: cover;
+            border-color: transparent;
+        }
+
+        .logo {
+            top: 92px;
+            left: 250px;
+            color: rgba(255, 255, 255, 1);
+            height: auto;
+            position: absolute;
+            font-size: 72px;
+            align-self: auto;
+            font-style: normal;
+            text-align: left;
+            font-family: Noto Sans;
+            font-weight: 900;
+            line-height: normal;
+            font-stretch: normal;
+            text-decoration: none;
+        }
+    }
+}

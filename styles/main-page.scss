@@ -161,7 +161,7 @@
                 display: flex;
                 overflow: hidden;
                 position: absolute;
-                box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15000000596046448);
+                box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
                 box-sizing: border-box;
                 align-items: flex-start;
                 border-color: transparent;
@@ -256,7 +256,7 @@
             .text {
                 top: 0px;
                 left: 0px;
-                color: var(--dl-color-default-blackdff46);
+                color: rgba(34, 34, 34, 1);
                 width: 1154px;
                 height: auto;
                 position: absolute;
@@ -298,7 +298,7 @@
             .description {
                 top: 113px;
                 left: 61px;
-                color: var(--dl-color-default-blackdff46);
+                color: rgba(34, 34, 34, 1);
                 width: 1032px;
                 height: auto;
                 position: absolute;
@@ -563,7 +563,7 @@
 
                 .icon {
                     top: 1.16px;
-                    left: 49.419921875px;
+                    left: 49.4px;
                     width: 201px;
                     height: 201px;
                     position: absolute;
@@ -668,7 +668,7 @@
 
                 .icon {
                     top: 1.16px;
-                    left: 50.419921875px;
+                    left: 50.4px;
                     width: 201px;
                     height: 201px;
                     position: absolute;
@@ -705,7 +705,7 @@
             .study {
                 top: 83.97px;
                 left: 655px;
-                color: var(--dl-color-default-blackdff46);
+                color: rgba(34, 34, 34, 1);
                 width: 204px;
                 height: auto;
                 position: absolute;
@@ -903,7 +903,7 @@
                 display: flex;
                 overflow: hidden;
                 position: absolute;
-                box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15000000596046448);
+                box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
                 box-sizing: border-box;
                 align-items: flex-start;
                 border-color: transparent;
