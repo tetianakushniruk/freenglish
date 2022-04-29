@@ -1,0 +1,878 @@
+.vocabulary-container {
+    min-height: 100vh;
+
+    .vocabulary-page {
+        width: 1440px;
+        height: 1772px;
+        margin: auto;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        max-width: 1440px;
+        box-sizing: border-box;
+        align-items: flex-start;
+        border-color: transparent;
+        background-color: rgba(255, 255, 255, 1);
+
+        .header {
+            top: 0px;
+            left: 0px;
+            width: 1440px;
+            height: 105px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+            background-color: rgba(49, 77, 202, 1);
+            z-index: 6;
+
+            .menu {
+                top: 42.5px;
+                left: 752px;
+                width: 439px;
+                height: 20px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: center;
+                border-color: transparent;
+
+                .home {
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    margin: 0 56px 0 0;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 300px;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .vocabulary {
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    margin: 0 56px 0 0;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 700;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .grammar {
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    margin: 0 56px 0 0;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 300px;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .tests {
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 300px;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .logo {
+                top: 25.5px;
+                left: 249px;
+                color: rgba(255, 255, 255, 1);
+                width: 209px;
+                height: auto;
+                position: absolute;
+                font-size: 40px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .ellipses {
+            top: 80px;
+            left: 583px;
+            width: 274;
+            height: 129;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .title {
+            top: 200px;
+            left: 538px;
+            width: 365px;
+            height: 130px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+            z-index: 4;
+
+            .text {
+                top: 97px;
+                left: 0px;
+                color: var(--dl-color-default-blackdff46);
+                height: auto;
+                position: absolute;
+                font-size: 24px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 400px;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .description {
+                top: 0px;
+                left: 15px;
+                color: var(--dl-color-default-blackdff46);
+                height: auto;
+                position: absolute;
+                font-size: 64px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 400px;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .topics {
+            top: 427px;
+            left: 0px;
+            right: 0px;
+            width: 978px;
+            height: 616px;
+            margin: auto;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+            z-index: 3;
+
+            .food {
+                top: 349px;
+                left: 613px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 64px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .holidays {
+                top: 244px;
+                left: 330px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 48px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .world {
+                top: 190px;
+                left: 583px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 96px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .family {
+                top: 508px;
+                left: 123px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 40px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .hobbies {
+                top: 437px;
+                left: 234px;
+                color: rgba(255, 140, 179, 1);
+                height: auto;
+                position: absolute;
+                font-size: 48px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .animals {
+                top: 444px;
+                left: 650px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 64px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .body {
+                top: 508px;
+                left: 455px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 48px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .medicine {
+                top: 58px;
+                left: 82px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 36px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .job {
+                top: 415px;
+                left: 509px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 40px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .colours {
+                top: 339px;
+                left: 843px;
+                color: rgba(131, 222, 136, 1);
+                height: auto;
+                position: absolute;
+                font-size: 36px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .weather {
+                top: 148px;
+                left: 0px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 64px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .time {
+                top: 166px;
+                left: 417px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 36px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .criminals {
+                top: 106px;
+                left: 533px;
+                color: rgba(131, 222, 136, 1);
+                height: auto;
+                position: absolute;
+                font-size: 36px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .numbers {
+                top: 0px;
+                left: 461px;
+                color: rgba(255, 94, 149, 1);
+                height: auto;
+                position: absolute;
+                font-size: 48px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .movies {
+                top: 259px;
+                left: 108px;
+                color: rgba(255, 140, 179, 1);
+                height: auto;
+                position: absolute;
+                font-size: 40px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .music {
+                top: 80px;
+                left: 305px;
+                color: rgba(75, 205, 92, 1);
+                height: auto;
+                position: absolute;
+                font-size: 48px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .computer {
+                top: 316px;
+                left: 128px;
+                color: rgba(131, 222, 136, 1);
+                height: auto;
+                position: absolute;
+                font-size: 72px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .sport {
+                top: 38px;
+                left: 754px;
+                color: rgba(255, 140, 179, 1);
+                width: 179px;
+                height: auto;
+                position: absolute;
+                font-size: 64px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .suggest-btn {
+            top: 1104px;
+            left: 593px;
+            width: 255px;
+            height: 56px;
+            display: flex;
+            overflow: hidden;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            border-color: rgba(255, 94, 149, 1);
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 50px;
+            z-index: 2;
+
+            .text {
+                top: 16px;
+                left: 0px;
+                color: rgba(255, 94, 149, 1);
+                width: 255px;
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: center;
+                font-family: Noto Sans;
+                font-weight: 700;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+
+        .footer {
+            top: 1279px;
+            left: 0px;
+            width: 1440px;
+            height: 493px;
+            display: flex;
+            position: absolute;
+            box-sizing: border-box;
+            align-items: flex-start;
+            flex-shrink: 1;
+            border-color: transparent;
+            background-color: rgba(49, 77, 202, 1);
+            z-index: 1;
+
+            .service-section {
+                top: 127px;
+                left: 712px;
+                width: 84px;
+                height: 240px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+
+                .service {
+                    top: 0px;
+                    left: 0px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .download {
+                    top: 50px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .vocabulary {
+                    top: 90px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .grammar {
+                    top: 130px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .tests {
+                    top: 170px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .resourses {
+                    top: 210px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .company-section {
+                top: 127px;
+                left: 904px;
+                width: 82px;
+                height: 160px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+
+                .company {
+                    top: 0px;
+                    left: 0px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .about-us {
+                    top: 90px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .faq {
+                    top: 50px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .support {
+                    top: 130px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .privacy-section {
+                top: 127px;
+                left: 1094px;
+                width: 97px;
+                height: 118px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+
+                .privacy {
+                    top: 0px;
+                    left: 0px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 18px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 500;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .terms-of-use {
+                    top: 50px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    width: 97px;
+                    height: auto;
+                    position: absolute;
+                    font-size: 16px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 30px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .slogan {
+                top: 182px;
+                left: 255px;
+                color: rgba(116, 213, 121, 1);
+                width: 252px;
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .download {
+                top: 311px;
+                left: 255px;
+                color: rgba(255, 255, 255, 1);
+                width: 130px;
+                height: auto;
+                position: absolute;
+                font-size: 18px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Rubik;
+                font-weight: 400px;
+                line-height: 30px;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+
+            .socnet {
+                top: 241px;
+                left: 255px;
+                width: 194px;
+                height: 34px;
+                position: absolute;
+                object-fit: cover;
+                border-color: transparent;
+            }
+
+            .googleplay {
+                top: 348px;
+                left: 255px;
+                width: 187px;
+                height: 52px;
+                position: absolute;
+                object-fit: cover;
+                border-color: transparent;
+            }
+
+            .appstore {
+                top: 348px;
+                left: 432px;
+                width: 176px;
+                height: 52px;
+                position: absolute;
+                object-fit: cover;
+                border-color: transparent;
+            }
+
+            .logo {
+                top: 92px;
+                left: 250px;
+                color: rgba(255, 255, 255, 1);
+                height: auto;
+                position: absolute;
+                font-size: 72px;
+                align-self: auto;
+                font-style: normal;
+                text-align: left;
+                font-family: Noto Sans;
+                font-weight: 900;
+                line-height: normal;
+                font-stretch: normal;
+                text-decoration: none;
+            }
+        }
+    }
+}
