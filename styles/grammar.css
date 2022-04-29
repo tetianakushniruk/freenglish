@@ -1,0 +1,1624 @@
+.grammar-container {
+  min-height: 100vh;
+}
+
+.grammar-container .grammar-page {
+  width: 1440px;
+  height: 1673px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1440px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: transparent;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .header {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  background-color: #314dca;
+  z-index: 5;
+}
+
+.grammar-container .grammar-page .header .menu {
+  top: 42.5px;
+  left: 754px;
+  width: 437px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .header .menu .home {
+  color: white;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .header .menu .vocabulary {
+  color: white;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .header .menu .grammar {
+  color: #ff5e95;
+  height: auto;
+  margin: 0 56px 0 0;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .header .menu .tests {
+  color: white;
+  height: auto;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 300px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .header .logo {
+  top: 25.5px;
+  left: 249px;
+  color: white;
+  width: 209px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .ellipses {
+  top: 80px;
+  left: 583px;
+  width: 274;
+  height: 129;
+  position: absolute;
+  z-index: 4;
+}
+
+.grammar-container .grammar-page .title {
+  top: 200px;
+  left: 426px;
+  width: 588px;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  z-index: 3;
+}
+
+.grammar-container .grammar-page .title .slogan {
+  top: 97px;
+  left: 0px;
+  color: var(--dl-color-default-blackdff46);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .title .text {
+  top: 0px;
+  left: 149px;
+  color: var(--dl-color-default-blackdff46);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics {
+  top: 440px;
+  left: 185px;
+  width: 1070px;
+  height: 550.31298828125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-color: transparent;
+  z-index: 2;
+}
+
+.grammar-container .grammar-page .topics .begoingto {
+  top: 390.00048828125px;
+  left: 726.3685302734375px;
+  width: 344px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .begoingto .border {
+  top: 0px;
+  left: 0px;
+  width: 344px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .begoingto .logo {
+  top: 24.656246185302734px;
+  left: 45.2587890625px;
+  width: 109px;
+  height: 111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .begoingto .logo .text {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .begoingto .descr {
+  top: 26.2px;
+  left: 172.5px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .presperf {
+  top: 390.00048828125px;
+  left: 361.94970703125px;
+  width: 344px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .presperf .border {
+  top: 0px;
+  left: 0px;
+  width: 344px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .presperf .logo {
+  top: 35.65625px;
+  left: 16px;
+  width: 160px;
+  height: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .presperf .logo .text2 {
+  top: 68px;
+  left: 0px;
+  color: #ff8cb3;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .presperf .logo .text1 {
+  top: -1px;
+  left: 0px;
+  color: #4bcd5c;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .presperf .descr {
+  top: 39.65625px;
+  left: 172.54931640625px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastcontin {
+  top: 390.00048828125px;
+  left: 0px;
+  width: 339px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pastcontin .border {
+  top: 0px;
+  left: 0px;
+  width: 339px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .pastcontin .logo {
+  top: 35.65625px;
+  left: 30px;
+  width: 147px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pastcontin .logo .text2 {
+  left: 0px;
+  color: #74d579;
+  right: 0px;
+  width: 100%;
+  bottom: 1px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastcontin .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastcontin .decr {
+  top: 26.15625px;
+  left: 170.556640625px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastsimple {
+  top: 195px;
+  left: 726.36865234375px;
+  width: 344px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pastsimple .border {
+  top: 0px;
+  left: 0px;
+  width: 344px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .pastsimple .logo {
+  top: 35.65625px;
+  left: 30px;
+  width: 131px;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pastsimple .logo .text2 {
+  top: 80px;
+  left: 0px;
+  color: #ff8cb3;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastsimple .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #4bcd5c;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pastsimple .descr {
+  top: 39.65625px;
+  left: 172.548828125px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .futuresimple {
+  top: 195px;
+  left: 361.94970703125px;
+  width: 344px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .futuresimple .border {
+  top: 0px;
+  left: 0px;
+  width: 344px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .futuresimple .logo {
+  top: 35.65625px;
+  left: 36px;
+  width: 117px;
+  height: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .futuresimple .logo .text2 {
+  top: 80px;
+  left: 0px;
+  color: #74d579;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .futuresimple .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .futuresimple .descr {
+  top: 39.65625px;
+  left: 172.80029296875px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .prescontin {
+  top: 195px;
+  left: 0px;
+  width: 339px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .prescontin .border {
+  top: 0px;
+  left: 0px;
+  width: 339px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .prescontin .logo {
+  top: 35.65625px;
+  left: 29px;
+  width: 137px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .prescontin .logo .text2 {
+  top: 68px;
+  left: 0px;
+  color: #ff8cb3;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .prescontin .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #4bcd5c;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .prescontin .descr {
+  top: 26.15625px;
+  left: 170.5810546875px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pressimple {
+  top: 0px;
+  left: 728.33740234375px;
+  width: 342px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pressimple .border {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .pressimple .logo {
+  top: 35.65625px;
+  left: 29.2900390625px;
+  width: 137px;
+  height: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .pressimple .logo .text2 {
+  top: 74px;
+  left: 0px;
+  color: #74d579;
+  right: 0px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pressimple .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .pressimple .descr {
+  top: 39.656211853027344px;
+  left: 170.580078125px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .modalcan {
+  top: 0px;
+  left: 363.9189453125px;
+  width: 342px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .modalcan .border {
+  top: 0px;
+  left: 0px;
+  width: 342px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .modalcan .logo {
+  top: 43.15625px;
+  left: 42.7900390625px;
+  width: 110px;
+  height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .modalcan .logo .text {
+  top: 0px;
+  left: 0px;
+  color: #4bcd5c;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .modalcan .descr {
+  top: 39.65625px;
+  left: 170.6376953125px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .verbtobe {
+  top: 0px;
+  left: 0px;
+  width: 341px;
+  height: 160.3125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .verbtobe .border {
+  top: 0px;
+  left: 0px;
+  width: 341px;
+  height: 160px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: #314dca;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 31.640625px;
+  background-color: white;
+}
+
+.grammar-container .grammar-page .topics .verbtobe .logo {
+  top: 31.65625px;
+  left: 50px;
+  width: 95px;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .topics .verbtobe .logo .text2 {
+  top: 74px;
+  left: 0px;
+  color: #74d579;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 800;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .verbtobe .logo .text1 {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: 103.20000648498535%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .topics .verbtobe .descr {
+  top: 26.15625px;
+  left: 170.5810546875px;
+  color: var(--dl-color-default-blackdff46);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: right;
+  font-family: Noto Sans;
+  font-weight: 400px;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer {
+  top: 1180px;
+  left: 0px;
+  width: 1440px;
+  height: 493px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+  background-color: #314dca;
+  z-index: 1;
+}
+
+.grammar-container .grammar-page .footer .service-section {
+  top: 127px;
+  left: 712px;
+  width: 84px;
+  height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .service-section .service {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .service-section .download {
+  top: 50px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .service-section .vocabulary {
+  top: 90px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .service-section .grammar {
+  top: 130px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .service-section .tests {
+  top: 170px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .service-section .resourses {
+  top: 210px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .company-section {
+  top: 127px;
+  left: 904px;
+  width: 82px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .company-section .company {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .company-section .about-us {
+  top: 90px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .company-section .faq {
+  top: 50px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .company-section .support {
+  top: 130px;
+  left: 0px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .privacy-section {
+  top: 127px;
+  left: 1094px;
+  width: 97px;
+  height: 118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .privacy-section .privacy {
+  top: 0px;
+  left: 0px;
+  color: #ff5e95;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .privacy-section .terms-of-use {
+  top: 50px;
+  left: 0px;
+  color: white;
+  width: 97px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .slogan {
+  top: 182px;
+  left: 255px;
+  color: #74d579;
+  width: 252px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .download {
+  top: 311px;
+  left: 255px;
+  color: white;
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400px;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.grammar-container .grammar-page .footer .socnet {
+  top: 241px;
+  left: 255px;
+  width: 194px;
+  height: 34px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .googleplay {
+  top: 348px;
+  left: 255px;
+  width: 187px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .appstore {
+  top: 348px;
+  left: 432px;
+  width: 176px;
+  height: 52px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-color: transparent;
+}
+
+.grammar-container .grammar-page .footer .logo {
+  top: 92px;
+  left: 250px;
+  color: white;
+  height: auto;
+  position: absolute;
+  font-size: 72px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/*# sourceMappingURL=grammar.css.map */
