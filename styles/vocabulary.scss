@@ -1,568 +1,797 @@
-.vocabulary-container {
-    min-height: 100vh;
+@media only screen and (min-width: 429px) and (max-width: 1600px) {
 
-    .vocabulary-page {
-        width: 1440px;
-        height: 1772px;
-        margin: auto;
-        display: flex;
-        overflow: hidden;
-        position: relative;
-        max-width: 1440px;
-        box-sizing: border-box;
-        align-items: flex-start;
-        border-color: transparent;
-        background-color: rgba(255, 255, 255, 1);
+    .vocabulary-container {
+        min-height: 100vh;
 
-        .header {
-            top: 0px;
-            left: 0px;
+        .header-mobile{
+            display: none;
+        }
+
+        .vocabulary-page {
             width: 1440px;
-            height: 105px;
+            height: 1772px;
+            margin: auto;
             display: flex;
-            position: absolute;
+            overflow: hidden;
+            position: relative;
+            max-width: 1440px;
             box-sizing: border-box;
             align-items: flex-start;
-            flex-shrink: 1;
             border-color: transparent;
-            background-color: rgba(49, 77, 202, 1);
-            z-index: 6;
+            background-color: rgba(255, 255, 255, 1);
 
-            .menu {
-                top: 42.5px;
-                left: 752px;
-                width: 439px;
-                height: 20px;
+            .header {
+                top: 0px;
+                left: 0px;
+                width: 1440px;
+                height: 105px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
-                align-items: center;
+                align-items: flex-start;
+                flex-shrink: 1;
                 border-color: transparent;
+                background-color: rgba(49, 77, 202, 1);
+                z-index: 6;
 
-                .home {
+                .menu {
+                    top: 42.5px;
+                    left: 752px;
+                    width: 439px;
+                    height: 20px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    border-color: transparent;
+
+                    .home {
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        margin: 0 56px 0 0;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 300px;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .vocabulary {
+                        color: rgba(255, 94, 149, 1);
+                        height: auto;
+                        margin: 0 56px 0 0;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .grammar {
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        margin: 0 56px 0 0;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 300px;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .tests {
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 300px;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+                }
+
+                .logo {
+                    top: 25.5px;
+                    left: 249px;
                     color: rgba(255, 255, 255, 1);
+                    width: 209px;
                     height: auto;
-                    margin: 0 56px 0 0;
-                    font-size: 18px;
+                    position: absolute;
+                    font-size: 40px;
                     align-self: auto;
                     font-style: normal;
                     text-align: left;
                     font-family: Noto Sans;
-                    font-weight: 300px;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .ellipses {
+                top: 80px;
+                left: 583px;
+                width: 274;
+                height: 129;
+                position: absolute;
+                z-index: 5;
+            }
+
+            .title {
+                top: 200px;
+                left: 538px;
+                width: 365px;
+                height: 130px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+                z-index: 4;
+
+                .description {
+                    top: 97px;
+                    left: 0px;
+                    color: rgba(34, 34, 34, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 24px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 400;
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
 
-                .vocabulary {
+                .text {
+                    top: 0px;
+                    left: 15px;
+                    color: rgba(34, 34, 34, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 64px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 400;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .topics {
+                top: 427px;
+                left: 0px;
+                right: 0px;
+                width: 978px;
+                height: 616px;
+                margin: auto;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+                z-index: 3;
+
+                .food {
+                    top: 349px;
+                    left: 613px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 64px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .holidays {
+                    top: 244px;
+                    left: 330px;
                     color: rgba(255, 94, 149, 1);
                     height: auto;
-                    margin: 0 56px 0 0;
-                    font-size: 18px;
+                    position: absolute;
+                    font-size: 48px;
                     align-self: auto;
                     font-style: normal;
                     text-align: left;
                     font-family: Noto Sans;
-                    font-weight: 700;
+                    font-weight: 900;
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
 
-                .grammar {
-                    color: rgba(255, 255, 255, 1);
+                .world {
+                    top: 190px;
+                    left: 583px;
+                    color: rgba(75, 205, 92, 1);
                     height: auto;
-                    margin: 0 56px 0 0;
-                    font-size: 18px;
+                    position: absolute;
+                    font-size: 96px;
                     align-self: auto;
                     font-style: normal;
                     text-align: left;
                     font-family: Noto Sans;
-                    font-weight: 300px;
+                    font-weight: 900;
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
 
-                .tests {
-                    color: rgba(255, 255, 255, 1);
+                .family {
+                    top: 508px;
+                    left: 123px;
+                    color: rgba(75, 205, 92, 1);
                     height: auto;
-                    font-size: 18px;
+                    position: absolute;
+                    font-size: 40px;
                     align-self: auto;
                     font-style: normal;
                     text-align: left;
                     font-family: Noto Sans;
-                    font-weight: 300px;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .hobbies {
+                    top: 437px;
+                    left: 234px;
+                    color: rgba(255, 140, 179, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 48px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .animals {
+                    top: 444px;
+                    left: 650px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 64px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .body {
+                    top: 508px;
+                    left: 455px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 48px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .medicine {
+                    top: 58px;
+                    left: 82px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 36px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .job {
+                    top: 415px;
+                    left: 509px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 40px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .colours {
+                    top: 339px;
+                    left: 843px;
+                    color: rgba(131, 222, 136, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 36px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .weather {
+                    top: 148px;
+                    left: 0px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 64px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .time {
+                    top: 166px;
+                    left: 417px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 36px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .criminals {
+                    top: 106px;
+                    left: 533px;
+                    color: rgba(131, 222, 136, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 36px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .numbers {
+                    top: 0px;
+                    left: 461px;
+                    color: rgba(255, 94, 149, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 48px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .movies {
+                    top: 259px;
+                    left: 108px;
+                    color: rgba(255, 140, 179, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 40px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .music {
+                    top: 80px;
+                    left: 305px;
+                    color: rgba(75, 205, 92, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 48px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .computer {
+                    top: 316px;
+                    left: 128px;
+                    color: rgba(131, 222, 136, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 72px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .sport {
+                    top: 38px;
+                    left: 754px;
+                    color: rgba(255, 140, 179, 1);
+                    width: 179px;
+                    height: auto;
+                    position: absolute;
+                    font-size: 64px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
             }
 
-            .logo {
-                top: 25.5px;
-                left: 249px;
-                color: rgba(255, 255, 255, 1);
-                width: 209px;
-                height: auto;
-                position: absolute;
-                font-size: 40px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-        }
-
-        .ellipses {
-            top: 80px;
-            left: 583px;
-            width: 274;
-            height: 129;
-            position: absolute;
-            z-index: 5;
-        }
-
-        .title {
-            top: 200px;
-            left: 538px;
-            width: 365px;
-            height: 130px;
-            display: flex;
-            position: absolute;
-            box-sizing: border-box;
-            align-items: flex-start;
-            flex-shrink: 1;
-            border-color: transparent;
-            z-index: 4;
-
-            .text {
-                top: 97px;
-                left: 0px;
-                color: rgba(34, 34, 34, 1);
-                height: auto;
-                position: absolute;
-                font-size: 24px;
-                align-self: auto;
-                font-style: normal;
-                text-align: center;
-                font-family: Noto Sans;
-                font-weight: 400px;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .description {
-                top: 0px;
-                left: 15px;
-                color: rgba(34, 34, 34, 1);
-                height: auto;
-                position: absolute;
-                font-size: 64px;
-                align-self: auto;
-                font-style: normal;
-                text-align: center;
-                font-family: Noto Sans;
-                font-weight: 400px;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-        }
-
-        .topics {
-            top: 427px;
-            left: 0px;
-            right: 0px;
-            width: 978px;
-            height: 616px;
-            margin: auto;
-            display: flex;
-            position: absolute;
-            box-sizing: border-box;
-            align-items: flex-start;
-            flex-shrink: 1;
-            border-color: transparent;
-            z-index: 3;
-
-            .food {
-                top: 349px;
-                left: 613px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 64px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .holidays {
-                top: 244px;
-                left: 330px;
-                color: rgba(255, 94, 149, 1);
-                height: auto;
-                position: absolute;
-                font-size: 48px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .world {
-                top: 190px;
-                left: 583px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 96px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .family {
-                top: 508px;
-                left: 123px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 40px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .hobbies {
-                top: 437px;
-                left: 234px;
-                color: rgba(255, 140, 179, 1);
-                height: auto;
-                position: absolute;
-                font-size: 48px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .animals {
-                top: 444px;
-                left: 650px;
-                color: rgba(255, 94, 149, 1);
-                height: auto;
-                position: absolute;
-                font-size: 64px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .body {
-                top: 508px;
-                left: 455px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 48px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .medicine {
-                top: 58px;
-                left: 82px;
-                color: rgba(255, 94, 149, 1);
-                height: auto;
-                position: absolute;
-                font-size: 36px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .job {
-                top: 415px;
-                left: 509px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 40px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .colours {
-                top: 339px;
-                left: 843px;
-                color: rgba(131, 222, 136, 1);
-                height: auto;
-                position: absolute;
-                font-size: 36px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .weather {
-                top: 148px;
-                left: 0px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 64px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .time {
-                top: 166px;
-                left: 417px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 36px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .criminals {
-                top: 106px;
-                left: 533px;
-                color: rgba(131, 222, 136, 1);
-                height: auto;
-                position: absolute;
-                font-size: 36px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .numbers {
-                top: 0px;
-                left: 461px;
-                color: rgba(255, 94, 149, 1);
-                height: auto;
-                position: absolute;
-                font-size: 48px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .movies {
-                top: 259px;
-                left: 108px;
-                color: rgba(255, 140, 179, 1);
-                height: auto;
-                position: absolute;
-                font-size: 40px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .music {
-                top: 80px;
-                left: 305px;
-                color: rgba(75, 205, 92, 1);
-                height: auto;
-                position: absolute;
-                font-size: 48px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .computer {
-                top: 316px;
-                left: 128px;
-                color: rgba(131, 222, 136, 1);
-                height: auto;
-                position: absolute;
-                font-size: 72px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .sport {
-                top: 38px;
-                left: 754px;
-                color: rgba(255, 140, 179, 1);
-                width: 179px;
-                height: auto;
-                position: absolute;
-                font-size: 64px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-        }
-
-        .suggest-btn {
-            top: 1104px;
-            left: 593px;
-            width: 255px;
-            height: 56px;
-            display: flex;
-            overflow: hidden;
-            position: absolute;
-            box-sizing: border-box;
-            align-items: flex-start;
-            border-color: rgba(255, 94, 149, 1);
-            border-style: solid;
-            border-width: 2px;
-            border-radius: 50px;
-            z-index: 2;
-
-            .text {
-                top: 16px;
-                left: 0px;
-                color: rgba(255, 94, 149, 1);
+            .suggest-btn {
+                top: 1104px;
+                left: 593px;
                 width: 255px;
-                height: auto;
+                height: 56px;
+                display: flex;
+                overflow: hidden;
                 position: absolute;
+                box-sizing: border-box;
+                align-items: center;
+                justify-content: center;
+                color: rgba(255, 94, 149, 1);
                 font-size: 18px;
                 align-self: auto;
                 font-style: normal;
                 text-align: center;
                 font-family: Noto Sans;
                 font-weight: 700;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
+                border-color: rgba(255, 94, 149, 1);
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 50px;
+                z-index: 2;
             }
-        }
 
-        .footer {
-            top: 1279px;
-            left: 0px;
-            width: 1440px;
-            height: 493px;
-            display: flex;
-            position: absolute;
-            box-sizing: border-box;
-            align-items: flex-start;
-            flex-shrink: 1;
-            border-color: transparent;
-            background-color: rgba(49, 77, 202, 1);
-            z-index: 1;
-
-            .service-section {
-                top: 127px;
-                left: 712px;
-                width: 84px;
-                height: 240px;
+            .footer {
+                top: 1279px;
+                left: 0px;
+                width: 1440px;
+                height: 493px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
                 align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
+                background-color: rgba(49, 77, 202, 1);
+                z-index: 1;
 
-                .service {
-                    top: 0px;
-                    left: 0px;
-                    color: rgba(255, 94, 149, 1);
+                .service-section {
+                    top: 127px;
+                    left: 712px;
+                    width: 84px;
+                    height: 240px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: flex-start;
+                    flex-shrink: 1;
+                    border-color: transparent;
+
+                    .service {
+                        top: 0px;
+                        left: 0px;
+                        color: rgba(255, 94, 149, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 500;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .download {
+                        top: 50px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .vocabulary {
+                        top: 90px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .grammar {
+                        top: 130px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .tests {
+                        top: 170px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .resourses {
+                        top: 210px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+                }
+
+                .company-section {
+                    top: 127px;
+                    left: 904px;
+                    width: 82px;
+                    height: 160px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: flex-start;
+                    flex-shrink: 1;
+                    border-color: transparent;
+
+                    .company {
+                        top: 0px;
+                        left: 0px;
+                        color: rgba(255, 94, 149, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 500;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .about-us {
+                        top: 90px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .faq {
+                        top: 50px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .support {
+                        top: 130px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+                }
+
+                .privacy-section {
+                    top: 127px;
+                    left: 1094px;
+                    width: 97px;
+                    height: 118px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: flex-start;
+                    flex-shrink: 1;
+                    border-color: transparent;
+
+                    .privacy {
+                        top: 0px;
+                        left: 0px;
+                        color: rgba(255, 94, 149, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 500;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+
+                    .terms-of-use {
+                        top: 50px;
+                        left: 0px;
+                        color: rgba(255, 255, 255, 1);
+                        width: 97px;
+                        height: auto;
+                        position: absolute;
+                        font-size: 16px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+                }
+
+                .slogan {
+                    top: 182px;
+                    left: 255px;
+                    color: rgba(116, 213, 121, 1);
+                    width: 252px;
                     height: auto;
                     position: absolute;
                     font-size: 18px;
@@ -570,114 +799,17 @@
                     font-style: normal;
                     text-align: left;
                     font-family: Rubik;
-                    font-weight: 500;
+                    font-weight: 400px;
                     line-height: 30px;
                     font-stretch: normal;
                     text-decoration: none;
                 }
 
                 .download {
-                    top: 50px;
-                    left: 0px;
+                    top: 311px;
+                    left: 255px;
                     color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .vocabulary {
-                    top: 90px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .grammar {
-                    top: 130px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .tests {
-                    top: 170px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .resourses {
-                    top: 210px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-            }
-
-            .company-section {
-                top: 127px;
-                left: 904px;
-                width: 82px;
-                height: 160px;
-                display: flex;
-                position: absolute;
-                box-sizing: border-box;
-                align-items: flex-start;
-                flex-shrink: 1;
-                border-color: transparent;
-
-                .company {
-                    top: 0px;
-                    left: 0px;
-                    color: rgba(255, 94, 149, 1);
+                    width: 130px;
                     height: auto;
                     position: absolute;
                     font-size: 18px;
@@ -685,69 +817,120 @@
                     font-style: normal;
                     text-align: left;
                     font-family: Rubik;
-                    font-weight: 500;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .about-us {
-                    top: 90px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
                     font-weight: 400px;
                     line-height: 30px;
                     font-stretch: normal;
                     text-decoration: none;
                 }
 
-                .faq {
-                    top: 50px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
+                .socnet {
+                    top: 241px;
+                    left: 255px;
+                    width: 194px;
+                    height: 34px;
                     position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
+                    object-fit: cover;
+                    border-color: transparent;
                 }
 
-                .support {
-                    top: 130px;
-                    left: 0px;
+                .googleplay {
+                    top: 348px;
+                    left: 255px;
+                    width: 187px;
+                    height: 52px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-color: transparent;
+                }
+
+                .appstore {
+                    top: 348px;
+                    left: 432px;
+                    width: 176px;
+                    height: 52px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-color: transparent;
+                }
+
+                .logo {
+                    top: 92px;
+                    left: 250px;
                     color: rgba(255, 255, 255, 1);
                     height: auto;
                     position: absolute;
-                    font-size: 16px;
+                    font-size: 72px;
                     align-self: auto;
                     font-style: normal;
                     text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
             }
 
-            .privacy-section {
-                top: 127px;
-                left: 1094px;
-                width: 97px;
-                height: 118px;
+            .footer-mobile{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 428px){
+    
+    .vocabulary-container {
+        min-height: 100vh;
+
+        .header-mobile{
+            width: 428px;
+            min-height: 73.6px;
+            height: auto;
+            display: flex;
+            position: relative;
+            font-style: normal;
+            font-family: Noto Sans;
+            font-weight: 800;
+            border-color: transparent;
+            background-color: rgba(49, 77, 202, 1);
+            z-index: 1;
+        }
+
+        .vocabulary-page {
+            width: 428px;
+            height: 1100px;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            max-width: 428px;
+            box-sizing: border-box;
+            align-items: flex-start;
+            border-color: transparent;
+            background-color: rgba(255, 255, 255, 1);
+
+            .header{
+                display: none;
+            }
+
+            .ellipses {
+                top: -40px;
+                left: 25%;
+                width: 100%;
+                max-width: 219px;
+                height: 103px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                float: left;
+                position: absolute;
+            }
+
+            .title {
+                top: 50px;
+                left: 68px;
+                width: 292px;
+                height: 95.65px;
                 display: flex;
                 position: absolute;
                 box-sizing: border-box;
@@ -755,123 +938,562 @@
                 flex-shrink: 1;
                 border-color: transparent;
 
-                .privacy {
+                .description {
+                    top: 69.6px;
+                    left: 0px;
+                    color: rgba(34, 34, 34, 1);
+                    height: auto;
+                    position: absolute;
+                    font-size: 19.2px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 400;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .text {
                     top: 0px;
-                    left: 0px;
-                    color: rgba(255, 94, 149, 1);
+                    left: 20px;
+                    color: rgba(34, 34, 34, 1);
                     height: auto;
                     position: absolute;
-                    font-size: 18px;
+                    font-size: 48px;
                     align-self: auto;
                     font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 500;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .terms-of-use {
-                    top: 50px;
-                    left: 0px;
-                    color: rgba(255, 255, 255, 1);
-                    width: 97px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 16px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 400;
+                    line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
             }
 
-            .slogan {
-                top: 182px;
-                left: 255px;
-                color: rgba(116, 213, 121, 1);
-                width: 252px;
-                height: auto;
+            .topics {
+                top: 200px;
+                left: 28.5px;
+                width: 372px;
+                height: 562.75px;
+                display: flex;
                 position: absolute;
-                font-size: 18px;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+
+                .holidays {
+                    width: 157px;
+                    height: 51px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 33px;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 94, 149, 1);
+                }
+                
+                .job {
+                    left: 174px;
+                    width: 57px;
+                    height: 49px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 29px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .criminals {
+                    left: 247.6px;
+                    width: 124px;
+                    height: 34.3px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    font-size: 25px;
+                    color: #FFFFFF;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(131, 222, 136, 1);
+                }
+
+                .weather {
+                    top: 78.6px;
+                    left: 0px;
+                    width: 219px;
+                    height: 61px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    font-style: normal;
+                    color: #FFFFFF;
+                    font-size: 45px;
+                    align-self: auto;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .sport {
+                    top: 70px;
+                    left: 247.6px;
+                    width: 124px;
+                    height: 63.6px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FFFFFF;
+                    font-size: 40px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    flex-shrink: 1;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 140, 179, 1);
+                }
+
+                .time {
+                    top: 153.8px;
+                    width: 79px;
+                    height: 35px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 26px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 140, 179, 1);
+                }
+
+                .body {
+                    top: 197px;
+                    left: 0px;
+                    width: 79px;
+                    height: 35.7px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 26px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .computer {
+                    top: 160px;
+                    left: 107.6px;
+                    width: 264px;
+                    height: 72.7px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 50px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(131, 222, 136, 1);
+                }
+
+                .animals {
+                    top: 256.3px;
+                    left: 0px;
+                    width: 192px;
+                    height: 61px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 45px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 94, 149, 1);
+                }
+                
+                .medicine {
+                    top: 261px;
+                    left: 218.3px;
+                    width: 153px;
+                    height: 34px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .movies {
+                    top: 343px;
+                    width: 105px;
+                    height: 38px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 28px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 140, 179, 1);
+                }
+
+                .hobbies {
+                    top: 318px;
+                    left: 218.3px;
+                    width: 153px;
+                    height: 50px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 34px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 140, 179, 1);
+                }
+
+                .food {
+                    top: 355px;
+                    left: 126.5px;
+                    width: 76px;
+                    height: 34px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    font-size: 24px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    color: #FFFFFF;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .colours {
+                    top: 418.7px;
+                    width: 124px;
+                    height: 41px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 32px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(131, 222, 136, 1);
+                }
+
+                .world {
+                    top: 403px;
+                    left: 152.5px;
+                    width: 219px;
+                    height: 92px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 67px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);
+                }
+
+                .family {
+                    bottom: 0px;
+                    width: 101px;
+                    height: 61px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 28px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(75, 205, 92, 1);                  
+                }
+
+                .music {
+                    bottom: 0px;
+                    left: 122.5px;
+                    width: 72px;
+                    height: 41px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(116, 213, 121, 1);
+                }
+
+                .numbers {
+                    bottom: 0px;
+                    left: 211.9px;
+                    width: 160px;
+                    height: 46px;
+                    display: flex;
+                    position: absolute;
+                    box-sizing: border-box;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 1;
+                    color: #FFFFFF;
+                    font-size: 33px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: left;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    border-color: transparent;
+                    border-radius: 7px;
+                    background-color: rgba(255, 94, 149, 1);
+                }
+                
+            }
+
+            .suggest-btn {
+                top: 840px;
+                left: 86.5px;
+                width: 255px;
+                height: 56px;
+                display: flex;
+                overflow: hidden;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: center;
+                justify-content: center;
+                color: rgba(255, 94, 149, 1);
+                font-size: 30px;
                 align-self: auto;
                 font-style: normal;
-                text-align: left;
-                font-family: Rubik;
-                font-weight: 400px;
-                line-height: 30px;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .download {
-                top: 311px;
-                left: 255px;
-                color: rgba(255, 255, 255, 1);
-                width: 130px;
-                height: auto;
-                position: absolute;
-                font-size: 18px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
-                font-family: Rubik;
-                font-weight: 400px;
-                line-height: 30px;
-                font-stretch: normal;
-                text-decoration: none;
-            }
-
-            .socnet {
-                top: 241px;
-                left: 255px;
-                width: 194px;
-                height: 34px;
-                position: absolute;
-                object-fit: cover;
-                border-color: transparent;
-            }
-
-            .googleplay {
-                top: 348px;
-                left: 255px;
-                width: 187px;
-                height: 52px;
-                position: absolute;
-                object-fit: cover;
-                border-color: transparent;
-            }
-
-            .appstore {
-                top: 348px;
-                left: 432px;
-                width: 176px;
-                height: 52px;
-                position: absolute;
-                object-fit: cover;
-                border-color: transparent;
-            }
-
-            .logo {
-                top: 92px;
-                left: 250px;
-                color: rgba(255, 255, 255, 1);
-                height: auto;
-                position: absolute;
-                font-size: 72px;
-                align-self: auto;
-                font-style: normal;
-                text-align: left;
+                text-align: center;
                 font-family: Noto Sans;
-                font-weight: 900;
-                line-height: normal;
-                font-stretch: normal;
-                text-decoration: none;
+                font-weight: 700;
+                border-color: rgba(255, 94, 149, 1);
+                border-style: solid;
+                border-width: 2px;
+                border-radius: 50px;
+            }
+
+            .footer {
+                display: none;
+            }
+
+            .footer-mobile {
+                bottom: 0px;
+                left: 0px;
+                width: 428px;
+                height: 116.15px;
+                display: flex;
+                position: absolute;
+                box-sizing: border-box;
+                align-items: flex-start;
+                flex-shrink: 1;
+                border-color: transparent;
+                z-index: 2;
+
+                .bg {
+                    top: 0px;
+                    left: 0px;
+                    width: 428px;
+                    height: 116px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-color: transparent;
+                    border-radius: 125px 125px 0 0;
+                    background-color: rgba(49, 77, 202, 1);
+                }
+
+                .slogan {
+                    top: 91.15px;
+                    left: 0px;
+                    color: rgba(116, 213, 121, 1);
+                    right: 0px;
+                    height: auto;
+                    margin: auto;
+                    position: absolute;
+                    font-size: 14px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Rubik;
+                    font-weight: 400px;
+                    line-height: 9.43px;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .logo {
+                    top: 50.15px;
+                    left: 0px;
+                    color: rgba(255, 255, 255, 1);
+                    right: 0px;
+                    height: auto;
+                    margin: auto;
+                    position: absolute;
+                    font-size: 30.17px;
+                    align-self: auto;
+                    font-style: normal;
+                    text-align: center;
+                    font-family: Noto Sans;
+                    font-weight: 900;
+                    line-height: normal;
+                    font-stretch: normal;
+                    text-decoration: none;
+                }
+
+                .socnet {
+                    top: 19px;
+                    left: 0px;
+                    right: 0px;
+                    width: auto;
+                    height: 29px;
+                    margin: auto;
+                    position: absolute;
+                    object-fit: cover;
+                    border-color: transparent;
+                }
             }
         }
     }
