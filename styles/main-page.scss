@@ -1,54 +1,46 @@
-@media only screen and (min-width: 429px) and (max-width: 1600px) {
+@media only screen and (min-width: 1028px) {
     .main-page-container {
         min-height: 100vh;
-
         .header-mobile {
             display: none;
         }
-
         .main-page {
-            width: 1440px;
-            height: 2951px;
+            width: 100%;
+            min-height: 2951px;
             margin: auto;
             display: flex;
+            flex-direction: column;
             overflow: hidden;
             position: relative;
             max-width: 1440px;
             box-sizing: border-box;
-            align-items: flex-start;
+            align-items: center;
             border-color: transparent;
-            justify-content: center;
             background-color: rgba(255, 255, 255, 1);
-
             .header {
-                top: 0px;
-                left: 0px;
-                width: 1440px;
-                height: 105px;
+                width: 100%;
+                max-width: 1440px;
+                flex: 0 1 105px;
                 display: flex;
-                position: absolute;
+                position: relative;
                 box-sizing: border-box;
                 align-items: flex-start;
-                flex-shrink: 1;
+                justify-content: center;
                 border-color: transparent;
                 background-color: rgba(49, 77, 202, 1);
-                z-index: 7;
-
                 .menu {
                     top: 42.5px;
-                    left: 501.5px;
                     width: 437px;
                     height: 20px;
                     display: flex;
+                    justify-content: space-between;
                     position: absolute;
                     box-sizing: border-box;
                     align-items: center;
                     border-color: transparent;
-
                     .home {
                         color: rgba(255, 94, 149, 1);
                         height: auto;
-                        margin: 0 56px 0 0;
                         font-size: 18px;
                         align-self: auto;
                         font-style: normal;
@@ -59,11 +51,9 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .vocabulary {
                         color: rgba(255, 255, 255, 1);
                         height: auto;
-                        margin: 0 56px 0 0;
                         font-size: 18px;
                         align-self: auto;
                         font-style: normal;
@@ -74,11 +64,9 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .grammar {
                         color: rgba(255, 255, 255, 1);
                         height: auto;
-                        margin: 0 56px 0 0;
                         font-size: 18px;
                         align-self: auto;
                         font-style: normal;
@@ -89,7 +77,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .tests {
                         color: rgba(255, 255, 255, 1);
                         height: auto;
@@ -105,64 +92,86 @@
                     }
                 }
             }
-
             .banner {
-                top: 0px;
-                left: 0px;
-                width: 1440px;
-                height: 669px;
+                width: 100%;
+                flex: 0 1 calc(1440px - 55vw);
+                max-width: 1440px;
+                min-height: 669px;
                 display: flex;
-                position: absolute;
+                position: relative;
                 box-sizing: border-box;
                 align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
                 background-color: rgba(49, 77, 202, 1);
-                z-index: 6;
-
                 .curve-mob,
                 .bg-add {
                     display: none;
                 }
-
-                .slogan1 {
-                    top: 274px;
-                    left: 125px;
-                    color: rgba(255, 255, 255, 1);
-                    width: 554px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 40px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 52px;
-                    font-stretch: normal;
-                    text-transform: uppercase;
-                    text-decoration: none;
+                .bg {
+                    .slogan1 {
+                        top: 274px;
+                        left: 125px;
+                        color: rgba(255, 255, 255, 1);
+                        width: 554px;
+                        height: auto;
+                        position: absolute;
+                        font-size: 40px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 500;
+                        line-height: 52px;
+                        font-stretch: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                    .slogan2 {
+                        top: 324px;
+                        left: 125px;
+                        color: rgba(255, 94, 149, 1);
+                        width: 554px;
+                        height: auto;
+                        position: absolute;
+                        font-size: 40px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 800;
+                        line-height: 52px;
+                        font-stretch: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                    .illustr {
+                        bottom: 10px;
+                        right: 90px;
+                        width: 100%;
+                        width: 649px;
+                        height: auto;
+                        position: absolute;
+                        object-fit: cover;
+                        border-color: transparent;
+                    }
+                    .logo {
+                        top: 140px;
+                        left: 120px;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 4.5rem;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 900;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
                 }
-
-                .slogan2 {
-                    top: 324px;
-                    left: 125px;
-                    color: rgba(255, 94, 149, 1);
-                    width: 554px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 40px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 800;
-                    line-height: 52px;
-                    font-stretch: normal;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                }
-
                 .btn {
                     top: 419px;
                     left: 125px;
@@ -177,7 +186,6 @@
                     border-color: transparent;
                     border-radius: 50px;
                     background-color: rgba(49, 77, 202, 1);
-
                     .shadow {
                         top: 0px;
                         left: 0px;
@@ -190,7 +198,6 @@
                         border-radius: 4px;
                         background-color: rgba(49, 77, 202, 1);
                     }
-
                     .text {
                         top: 16px;
                         left: 0px;
@@ -210,50 +217,19 @@
                         text-decoration: none;
                     }
                 }
-
-                .illustr {
-                    top: 99px;
-                    left: 699px;
-                    width: 649px;
-                    height: 560px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .logo {
-                    top: 140px;
-                    left: 120px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 72px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 900;
-                    line-height: normal;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
             }
-
             .welcome {
-                top: 730px;
-                left: 143px;
-                width: 1154px;
-                height: 241px;
+                margin-top: 60px;
+                max-width: 1154px;
+                width: 100%;
+                flex: 0 1 241px;
                 display: flex;
-                position: absolute;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 5;
-
                 .pink-box {
-                    top: 0px;
                     left: 577px;
                     width: 380px;
                     height: 90px;
@@ -262,14 +238,11 @@
                     border-color: transparent;
                     background-color: rgba(255, 94, 149, 1);
                 }
-
                 .text {
-                    top: 0px;
-                    left: 0px;
                     color: rgba(34, 34, 34, 1);
                     width: 1154px;
                     height: auto;
-                    position: absolute;
+                    position: relative;
                     font-size: 64px;
                     align-self: auto;
                     font-style: normal;
@@ -279,7 +252,6 @@
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
-
                     .text1 {
                         color: rgba(34, 34, 34, 1);
                         width: 1154px;
@@ -291,7 +263,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .text2 {
                         color: rgba(255, 255, 255, 1);
                         width: 1154px;
@@ -304,28 +275,24 @@
                         text-decoration: none;
                     }
                 }
-
                 .description {
-                    top: 113px;
-                    left: 61px;
+                    margin-top: 25px;
                     color: rgba(34, 34, 34, 1);
-                    width: 1032px;
+                    max-width: 1032px;
+                    width: 70vw;
                     height: auto;
-                    position: absolute;
+                    position: relative;
                     font-size: 36px;
-                    align-self: auto;
                     font-style: normal;
+                    align-self: center;
                     text-align: center;
                     font-family: Noto Sans;
-                    font-weight: 400px;
+                    font-weight: 400;
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .ellipses {
-                    top: 45px;
-                    left: 6px;
                     width: 104px;
                     height: 123px;
                     display: flex;
@@ -334,14 +301,12 @@
                     align-items: flex-start;
                     flex-shrink: 1;
                     border-color: transparent;
-
                     .big {
                         top: 59px;
                         width: 64;
                         height: 64;
                         position: absolute;
                     }
-
                     .medium {
                         top: 20px;
                         left: 54px;
@@ -349,7 +314,6 @@
                         height: 50;
                         position: absolute;
                     }
-
                     .small {
                         left: 12px;
                         width: 40;
@@ -358,32 +322,23 @@
                     }
                 }
             }
-
             .sections {
-                top: 994px;
-                left: 146px;
-                width: 1148px;
-                height: 345px;
+                margin-top: 60px;
+                width: 100%;
+                max-width: 1148px;
+                flex: 0 1 345px;
                 display: flex;
-                position: absolute;
-                box-sizing: border-box;
-                align-items: flex-start;
-                flex-shrink: 1;
-                border-color: transparent;
-                z-index: 4;
-
+                flex-direction: row;
+                justify-content: space-between;
+                position: relative;
                 .tests {
-                    top: 11px;
-                    left: 815px;
                     width: 333px;
                     height: 334.6px;
                     display: flex;
-                    position: absolute;
+                    position: relative;
                     box-sizing: border-box;
                     align-items: flex-start;
                     flex-shrink: 1;
-                    border-color: transparent;
-
                     .btn {
                         top: 278.6px;
                         left: 24px;
@@ -398,7 +353,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-
                         .border {
                             top: 0px;
                             left: 0px;
@@ -410,7 +364,6 @@
                             border-width: 0px;
                             border-radius: 4px;
                         }
-
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -429,7 +382,6 @@
                             text-decoration: none;
                         }
                     }
-
                     .description {
                         top: 229px;
                         left: 0px;
@@ -447,7 +399,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .title {
                         top: 196.6px;
                         left: 0px;
@@ -465,7 +416,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .icon {
                         top: 1.16px;
                         left: 50px;
@@ -476,19 +426,14 @@
                         border-color: transparent;
                     }
                 }
-
                 .grammar {
-                    top: 11px;
-                    left: 410px;
                     width: 333px;
                     height: 334px;
                     display: flex;
-                    position: absolute;
+                    position: relative;
                     box-sizing: border-box;
                     align-items: flex-start;
                     flex-shrink: 1;
-                    border-color: transparent;
-
                     .btn {
                         top: 278px;
                         left: 23px;
@@ -503,7 +448,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-
                         .border {
                             top: 0px;
                             left: 0px;
@@ -515,7 +459,6 @@
                             border-width: 0px;
                             border-radius: 4px;
                         }
-
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -534,7 +477,6 @@
                             text-decoration: none;
                         }
                     }
-
                     .description {
                         top: 228px;
                         left: 0px;
@@ -552,7 +494,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .title {
                         top: 199px;
                         left: 0px;
@@ -570,7 +511,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .icon {
                         top: 1.16px;
                         left: 49.4px;
@@ -581,19 +521,14 @@
                         border-color: transparent;
                     }
                 }
-
                 .vocabulary {
-                    top: 7px;
-                    left: 0px;
                     width: 333px;
                     height: 334px;
                     display: flex;
-                    position: absolute;
+                    position: relative;
                     box-sizing: border-box;
                     align-items: flex-start;
                     flex-shrink: 1;
-                    border-color: transparent;
-
                     .btn {
                         top: 278px;
                         left: 24px;
@@ -608,7 +543,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-
                         .border {
                             top: 0px;
                             left: 0px;
@@ -620,7 +554,6 @@
                             border-width: 0px;
                             border-radius: 4px;
                         }
-
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -639,7 +572,6 @@
                             text-decoration: none;
                         }
                     }
-
                     .description {
                         top: 228px;
                         left: 0px;
@@ -657,7 +589,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .title {
                         top: 198.6px;
                         left: 0px;
@@ -675,7 +606,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .icon {
                         top: 1.16px;
                         left: 50.4px;
@@ -687,177 +617,155 @@
                     }
                 }
             }
-
             .mobile-app {
-                top: 1388px;
-                left: 174px;
-                width: 1091px;
-                height: 700.38px;
+                margin-top: 60px;
+                width: 100%;
                 display: flex;
-                position: absolute;
+                flex-direction: row;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
-                flex-shrink: 1;
+                justify-content: center;
                 border-color: transparent;
-                z-index: 3;
-
-                .green-box {
-                    top: 133.96px;
-                    left: 780px;
-                    width: 213px;
-                    height: 108px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                    background-color: rgba(75, 205, 92, 1);
-                }
-
-                .study {
-                    top: 83.97px;
-                    left: 655px;
-                    color: rgba(34, 34, 34, 1);
-                    width: 204px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 40px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 52px;
-                    font-stretch: normal;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                }
-
-                .slogan {
-                    top: 133.97px;
-                    left: 653px;
-                    color: rgba(116, 213, 121, 1);
-                    width: 427px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 58px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 800;
-                    line-height: 52px;
-                    font-stretch: normal;
-                    text-decoration: none;
-
-                    .text1 {
+                .content {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    .study {
+                        color: rgba(34, 34, 34, 1);
+                        width: 204px;
+                        height: auto;
+                        position: relative;
+                        font-size: 40px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 500;
+                        line-height: 52px;
+                        font-stretch: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                    .slogan {
                         color: rgba(116, 213, 121, 1);
-                        width: 427px;
                         height: auto;
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        font-size: 58px;
                         align-self: auto;
+                        font-style: normal;
                         text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 800;
+                        line-height: 52px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                        .any {
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            .text1 {
+                                color: rgba(116, 213, 121, 1);
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                            .text3 {
+                                color: rgba(116, 213, 121, 1);
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                        }
+                        .green-box {
+                            width: 213px;
+                            height: 108px;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                            background-color: rgba(75, 205, 92, 1);
+                            .text2 {
+                                color: rgba(255, 255, 255, 1);
+                                width: 427px;
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                            .text4 {
+                                color: rgba(255, 255, 255, 1);
+                                width: 427px;
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .description {
+                        color: rgba(0, 0, 0, 1);
+                        width: 422px;
+                        height: auto;
+                        position: relative;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 500;
+                        line-height: 26px;
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
-                    .text2 {
-                        color: rgba(255, 255, 255, 1);
-                        width: 427px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
+                    .mob-app {
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        .googleplay {
+                            width: 187px;
+                            height: 52px;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
+                        .appstore {
+                            width: 176px;
+                            height: 52px;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
                     }
-
-                    .text3 {
-                        color: rgba(116, 213, 121, 1);
-                        width: 427px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .text4 {
-                        color: rgba(255, 255, 255, 1);
-                        width: 427px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
+                    .curve {
+                        align-self: flex-end;
+                        width: 25vw;
+                        position: relative;
+                        content: url("../img/mobappdottedcurve.svg");
                     }
                 }
-
-                .description {
-                    top: 251.97px;
-                    left: 653px;
-                    color: rgba(0, 0, 0, 1);
-                    width: 422px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 18px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 26px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .googleplay {
-                    top: 321.97px;
-                    left: 653px;
-                    width: 187px;
-                    height: 52px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .appstore {
-                    top: 321.97px;
-                    left: 830px;
-                    width: 176px;
-                    height: 52px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .curve {
-                    left: 710.44px;
-                    width: 387;
-                    height: 63;
-                    position: absolute;
-                }
-
                 .illustr {
-                    top: 45px;
-                    left: 0px;
-                    width: 487px;
-                    height: 585px;
-                    position: absolute;
+                    width: 50vw;
+                    height: auto;
+                    position: relative;
                     object-fit: cover;
                     border-color: transparent;
                 }
             }
-
             .call-to-action {
-                top: 2095px;
-                left: 143px;
-                width: 1154px;
-                height: 225px;
+                margin-bottom: 140px;
+                width: 100%;
+                max-width: 1154px;
+                flex: 1 0 225px;
                 display: flex;
-                position: absolute;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
-                flex-shrink: 1;
-                border-color: transparent;
-                z-index: 2;
-
                 .description {
                     top: 84px;
                     left: 105px;
@@ -875,7 +783,6 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .pink-box {
                     top: 2px;
                     left: 157px;
@@ -886,7 +793,6 @@
                     border-color: transparent;
                     background-color: rgba(255, 94, 149, 1);
                 }
-
                 .slogan {
                     top: 0px;
                     left: 0px;
@@ -904,7 +810,6 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .btn {
                     top: 153px;
                     left: 399px;
@@ -919,7 +824,6 @@
                     border-color: transparent;
                     border-radius: 50px;
                     background-color: rgba(116, 213, 121, 1);
-
                     .bg {
                         top: 0px;
                         left: 0px;
@@ -932,7 +836,6 @@
                         border-radius: 4px;
                         background-color: rgba(116, 213, 121, 1);
                     }
-
                     .text {
                         top: 16px;
                         left: 0px;
@@ -953,254 +856,268 @@
                     }
                 }
             }
-
             .footer {
-                top: 2459px;
-                left: 0px;
-                width: 1440px;
-                height: 493px;
+                width: 100%;
+                max-width: 1440px;
+                flex: 0 1 493px;
                 display: flex;
-                position: absolute;
+                position: relative;
+                flex-direction: row;
                 box-sizing: border-box;
-                align-items: flex-start;
+                justify-content: space-around;
                 flex-shrink: 1;
                 border-color: transparent;
                 background-color: rgba(49, 77, 202, 1);
-                z-index: 1;
-
-                .service-section {
-                    top: 127px;
-                    left: 712px;
-                    width: 84px;
-                    height: 240px;
+                .sections {
+                    margin-right: 90px;
                     display: flex;
-                    position: absolute;
-                    box-sizing: border-box;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-
-                    .service {
-                        top: 0px;
-                        left: 0px;
-                        color: rgba(255, 94, 149, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 18px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 500;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
+                    flex: 0 1 536px;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    position: relative;
+                    align-self: center;
+                    .service-section {
+                        width: 84px;
+                        height: 240px;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        box-sizing: border-box;
+                        align-items: flex-start;
+                        flex-shrink: 1;
+                        border-color: transparent;
+                        .service {
+                            top: 0px;
+                            left: 0px;
+                            color: rgba(255, 94, 149, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 18px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 500;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .download {
+                            top: 50px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .vocabulary {
+                            top: 90px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .grammar {
+                            top: 130px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .tests {
+                            top: 170px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .resourses {
+                            top: 210px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                     }
-
-                    .download {
-                        top: 50px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
+                    .company-section {
+                        width: 82px;
+                        height: 160px;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        box-sizing: border-box;
+                        align-items: flex-start;
+                        flex-shrink: 1;
+                        border-color: transparent;
+                        .company {
+                            top: 0px;
+                            left: 0px;
+                            color: rgba(255, 94, 149, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 18px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 500;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .about-us {
+                            top: 90px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .faq {
+                            top: 50px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .support {
+                            top: 130px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                     }
-
-                    .vocabulary {
-                        top: 90px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .grammar {
-                        top: 130px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .tests {
-                        top: 170px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .resourses {
-                        top: 210px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-                }
-
-                .company-section {
-                    top: 127px;
-                    left: 931px;
-                    width: 82px;
-                    height: 160px;
-                    display: flex;
-                    position: absolute;
-                    box-sizing: border-box;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-
-                    .company {
-                        top: 0px;
-                        left: 0px;
-                        color: rgba(255, 94, 149, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 18px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 500;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .about-us {
-                        top: 90px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .faq {
-                        top: 50px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .support {
-                        top: 130px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 16px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 400px;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-                }
-
-                .privacy-section {
-                    top: 127px;
-                    left: 1151px;
-                    width: 97px;
-                    height: 118px;
-                    display: flex;
-                    position: absolute;
-                    box-sizing: border-box;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-
-                    .privacy {
-                        top: 0px;
-                        left: 0px;
-                        color: rgba(255, 94, 149, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 18px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Rubik;
-                        font-weight: 500;
-                        line-height: 30px;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .terms-of-use {
-                        top: 50px;
-                        left: 0px;
-                        color: rgba(255, 255, 255, 1);
+                    .privacy-section {
                         width: 97px;
+                        height: 118px;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        box-sizing: border-box;
+                        align-items: flex-start;
+                        flex-shrink: 1;
+                        border-color: transparent;
+                        .privacy {
+                            top: 0px;
+                            left: 0px;
+                            color: rgba(255, 94, 149, 1);
+                            height: auto;
+                            position: absolute;
+                            font-size: 18px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 500;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                        .terms-of-use {
+                            top: 50px;
+                            left: 0px;
+                            color: rgba(255, 255, 255, 1);
+                            width: 97px;
+                            height: auto;
+                            position: absolute;
+                            font-size: 16px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Rubik;
+                            font-weight: 400px;
+                            line-height: 30px;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .side-info {
+                    margin-left: 120px;
+                    margin-right: 90px;
+                    min-height: 310px;
+                    display: flex;
+                    flex: 0 1 370px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-self: center;
+                    .slogan {
+                        color: rgba(116, 213, 121, 1);
+                        width: 252px;
                         height: auto;
-                        position: absolute;
-                        font-size: 16px;
+                        position: relative;
+                        font-size: 18px;
                         align-self: auto;
                         font-style: normal;
                         text-align: left;
@@ -1210,309 +1127,239 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
+                    .download {
+                        color: rgba(255, 255, 255, 1);
+                        width: 130px;
+                        height: auto;
+                        position: relative;
+                        font-size: 18px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Rubik;
+                        font-weight: 400px;
+                        line-height: 30px;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
+                    .socnet {
+                        width: 194px;
+                        height: 34px;
+                        position: relative;
+                        object-fit: cover;
+                        border-color: transparent;
+                    }
+                    .mob-app {
+                        display: flex;
+                        flex-direction: row;
+                        .googleplay {
+                            width: 187px;
+                            height: 52px;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
+                        .appstore {
+                            width: 176px;
+                            height: 52px;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
+                    }
+                    .logo {
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: relative;
+                        font-size: 72px;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 900;
+                        line-height: normal;
+                        font-stretch: normal;
+                        text-decoration: none;
+                    }
                 }
-
-                .slogan {
-                    top: 182px;
-                    left: 126px;
-                    color: rgba(116, 213, 121, 1);
-                    width: 252px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 18px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .download {
-                    top: 311px;
-                    left: 126px;
-                    color: rgba(255, 255, 255, 1);
-                    width: 130px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 18px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Rubik;
-                    font-weight: 400px;
-                    line-height: 30px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .socnet {
-                    top: 241px;
-                    left: 126px;
-                    width: 194px;
-                    height: 34px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .googleplay {
-                    top: 348px;
-                    left: 126px;
-                    width: 187px;
-                    height: 52px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .appstore {
-                    top: 348px;
-                    left: 303px;
-                    width: 176px;
-                    height: 52px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .logo {
-                    top: 92px;
-                    left: 121px;
-                    color: rgba(255, 255, 255, 1);
-                    height: auto;
-                    position: absolute;
-                    font-size: 72px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 900;
-                    line-height: normal;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
             }
-
             .footer-mobile {
                 display: none;
             }
         }
     }
 }
-
-
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 1027px) {
     .main-page-container {
         min-height: 100vh;
-
-        .header-mobile {
-            width: 428px;
-            min-height: 73.6px;
-            height: auto;
-            display: flex;
-            position: relative;
-            font-style: normal;
-            font-family: Noto Sans;
-            font-weight: 800;
-            border-color: transparent;
-            background-color: rgba(49, 77, 202, 1);
-            z-index: 1;
-        }
-
         .main-page {
-            top: -1px;
-            width: 428px;
-            height: 2026px;
+            width: 100%;
+            min-height: 2026px;
             display: flex;
+            flex-direction: column;
             overflow: hidden;
             position: relative;
-            max-width: 428px;
             box-sizing: border-box;
             align-items: flex-start;
             border-color: transparent;
             background-color: rgba(255, 255, 255, 1);
-
             .header {
                 display: none;
             }
-
-
-            .banner {
-                top: 0px;
-                width: 428px;
-                height: 733.8px;
+            .header-mobile {
+                width: 100%;
                 display: flex;
-                position: absolute;
+                position: relative;
+                font-style: normal;
+                font-family: Noto Sans;
+                font-weight: 800;
+                border-color: transparent;
+                background-color: rgba(49, 77, 202, 1);
+            }
+            .banner {
+                width: 100%;
+                height: 135vw;
+                display: flex;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
                 align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 7;
-
                 .curve-mob {
-                    top: 609px;
-                    left: 12.2px;
-                    width: 403;
-                    height: 125;
+                    bottom: -5vw;
+                    width: 100%;
+                    height: auto;
                     position: absolute;
                 }
-
                 .bg-add {
-                    top: 574px;
-                    width: 428px;
-                    left: 0.63px;
-                    height: 129;
-                    position: absolute;
+                    top: -1px;
+                    width: 100%;
+                    height: 30vw;
+                    position: relative;
+                    background: url("../img/banner-bg-curve-mobile.svg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    .btn {
+                        bottom: 15vw;
+                        right: 10vw;
+                        width: 30vw;
+                        height: 7vw;
+                        display: flex;
+                        overflow: hidden;
+                        position: absolute;
+                        box-shadow: 1.25px 1.25px 8.8px 0px rgba(0, 0, 0, 0.15);
+                        box-sizing: border-box;
+                        align-items: center;
+                        justify-content: center;
+                        border-color: rgba(49, 77, 202, 1);
+                        border-width: 0px;
+                        border-radius: 50px;
+                        background-color: rgba(49, 77, 202, 1);
+                        .text {
+                            color: rgba(255, 255, 255, 1);
+                            height: auto;
+                            font-size: 3vw;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: center;
+                            font-family: Noto Sans;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-stretch: normal;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                    }
                 }
-
                 .bg {
-                    width: 428px;
-                    height: 576px;
-                    position: absolute;
-                    object-fit: cover;
+                    width: 100%;
+                    height: 105vw;
+                    position: relative;
+                    display: flex;
                     border-color: transparent;
                     background-color: rgba(49, 77, 202, 1);
-                }
-
-                .slogan1 {
-                    top: 172px;
-                    left: 54.6px;
-                    color: rgba(255, 255, 255, 1);
-                    width: 188px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 15px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 16.3px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                }
-
-                .slogan2 {
-                    top: 196.8px;
-                    left: 53.4px;
-                    color: rgba(255, 94, 149, 1);
-                    width: 170px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 15px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 800;
-                    line-height: 16.3px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                }
-
-                .btn {
-                    top: 603.8px;
-                    left: 217.3px;
-                    width: 166px;
-                    height: 41.5px;
-                    display: flex;
-                    padding: 11px 19px;
-                    overflow: hidden;
-                    position: absolute;
-                    box-shadow: 1.25px 1.25px 8.8px 0px rgba(0, 0, 0, 0.15);
-                    box-sizing: border-box;
-                    align-items: flex-start;
-                    border-color: rgba(49, 77, 202, 1);
-                    border-width: 0px;
-                    border-radius: 1.25px;
-                    background-color: rgba(49, 77, 202, 1);
-
-                    .text {
+                    .slogan1 {
+                        top: 25vw;
+                        left: 15vw;
                         color: rgba(255, 255, 255, 1);
-                        height: auto;
-                        font-size: 15px;
+                        position: absolute;
+                        font-size: 4vw;
                         align-self: auto;
                         font-style: normal;
-                        text-align: center;
+                        text-align: left;
                         font-family: Noto Sans;
-                        font-weight: 700;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                    .slogan2 {
+                        top: 30vw;
+                        left: 15vw;
+                        color: rgba(255, 94, 149, 1);
+                        position: absolute;
+                        font-size: 4vw;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 800;
+                        font-stretch: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                    .illustr {
+                        bottom: 10px;
+                        right: 7vw;
+                        width: 80vw;
+                        height: auto;
+                        position: absolute;
+                        object-fit: cover;
+                        border-color: transparent;
+                    }
+                    .logo {
+                        top: 7vw;
+                        left: 15vw;
+                        color: rgba(255, 255, 255, 1);
+                        height: auto;
+                        position: absolute;
+                        font-size: 4.5rem;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 900;
                         line-height: normal;
                         font-stretch: normal;
                         text-decoration: none;
-                        text-transform: uppercase;
                     }
                 }
-
-                .illustr {
-                    top: 205.6px;
-                    left: 4.4px;
-                    width: 424px;
-                    height: 354px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .logo {
-                    top: 44.2px;
-                    left: 0px;
-                    right: 0px;
-                    margin: auto;
-                    color: rgba(255, 255, 255, 1);
-                    width: 323px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 62.8px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 900;
-                    line-height: normal;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
             }
-
-
             .welcome {
-                top: 775px;
-                left: 32.8px;
-                width: 363px;
-                height: 117.17px;
+                margin-top: 15vw;
+                width: 100%;
                 display: flex;
-                position: absolute;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 6;
-
                 .pink-box {
-                    top: 4.4px;
-                    left: 179.4px;
-                    width: 177px;
-                    height: 39px;
+                    right: 8vw;
+                    width: 43vw;
+                    height: 10vw;
                     position: absolute;
                     object-fit: cover;
                     border-color: transparent;
                     background-color: rgba(255, 94, 149, 1);
                 }
-
                 .text {
-                    top: 0px;
-                    left: 0px;
                     color: rgba(34, 34, 34, 1);
-                    width: 363px;
+                    width: 100%;
                     height: auto;
-                    position: absolute;
-                    font-size: 30.17px;
+                    position: relative;
+                    font-size: 7vw;
                     align-self: auto;
                     font-style: normal;
                     text-align: center;
@@ -1521,7 +1368,6 @@
                     line-height: normal;
                     font-stretch: normal;
                     text-decoration: none;
-
                     .text1 {
                         color: rgba(34, 34, 34, 1);
                         width: 363px;
@@ -1533,7 +1379,6 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
                     .text2 {
                         color: rgba(255, 255, 255, 1);
                         width: 363px;
@@ -1546,16 +1391,13 @@
                         text-decoration: none;
                     }
                 }
-
                 .description {
-                    top: 50.6px;
-                    left: 20.6px;
                     color: rgba(34, 34, 34, 1);
-                    width: 324px;
+                    width: 90%;
                     height: auto;
-                    position: absolute;
-                    font-size: 15px;
-                    align-self: auto;
+                    position: relative;
+                    font-size: 4vw;
+                    align-self: center;
                     font-style: normal;
                     text-align: center;
                     font-family: Noto Sans;
@@ -1564,534 +1406,442 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .ellipses {
                     display: none;
                 }
-
             }
-
             .sections {
-                top: 950px;
-                left: 41.8px;
-                width: 353px;
-                height: 436px;
+                margin-top: 15vw;
+                width: 85%;
                 display: flex;
-                position: absolute;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
+                align-self: center;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 5;
-
                 .tests {
-                    top: 300px;
-                    width: 299px;
-                    height: 136.1px;
+                    margin-top: 5vw;
+                    width: 65vw;
                     display: flex;
-                    position: absolute;
+                    flex-direction: row;
+                    position: relative;
                     box-sizing: border-box;
+                    align-self: flex-start;
                     align-items: flex-start;
                     flex-shrink: 1;
                     border-color: transparent;
-
-                    .btn {
-                        top: 97.2px;
-                        left: 126.6px;
-                        width: 91px;
-                        height: 29.85px;
+                    .text {
                         display: flex;
-                        overflow: hidden;
-                        position: absolute;
-                        box-sizing: border-box;
-                        align-items: flex-start;
-                        border-color: rgba(116, 213, 121, 1);
-                        border-style: solid;
-                        border-width: 0.63px;
-                        border-radius: 15.7px;
-
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 91px;
-                            height: 30px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 1.25px;
+                        flex-direction: column;
+                        position: relative;
+                        .btn {
+                            width: 15vw;
+                            height: 4vw;
+                            display: flex;
+                            overflow: hidden;
+                            position: relative;
+                            box-sizing: border-box;
+                            align-items: center;
+                            justify-content: center;
+                            border-color: rgba(116, 213, 121, 1);
+                            border-style: solid;
+                            border-width: 0.63px;
+                            border-radius: 15.7px;
+                            .explore {
+                                color: rgba(116, 213, 121, 1);
+                                width: 100%;
+                                height: auto;
+                                position: relative;
+                                font-size: 2.5vw;
+                                align-self: auto;
+                                text-align: center;
+                                font-family: Noto Sans;
+                                font-weight: 700;
+                                line-height: normal;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
                         }
-
-                        .explore {
-                            top: 4.7px;
-                            color: rgba(116, 213, 121, 1);
-                            width: 91px;
+                        .description {
+                            color: rgba(0, 0, 0, 1);
+                            width: 100%;
                             height: auto;
-                            position: absolute;
-                            font-size: 15px;
+                            position: relative;
+                            font-size: 2.5vw;
                             align-self: auto;
-                            text-align: center;
-                            font-family: Noto Sans;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Heebo;
                             font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
                         }
+                        .title {
+                            color: rgba(0, 0, 0, 1);
+                            height: auto;
+                            position: relative;
+                            font-size: 4.5vw;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Heebo;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                     }
-
-                    .description {
-                        top: 32.6px;
-                        left: 126.6px;
-                        color: rgba(0, 0, 0, 1);
-                        width: 173px;
-                        height: auto;
-                        position: absolute;
-                        font-size: 11.3px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Heebo;
-                        font-weight: 700;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .title {
-                        top: 2.6px;
-                        left: 126.6px;
-                        color: rgba(0, 0, 0, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 20.1px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Heebo;
-                        font-weight: 400;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
                     .icon {
-                        top: 1px;
-                        left: 0px;
-                        width: 118px;
-                        height: 135px;
-                        position: absolute;
+                        margin-right: 4vw;
+                        width: 20vw;
+                        height: auto;
+                        position: relative;
                         object-fit: cover;
                         border-color: transparent;
                     }
                 }
-
                 .grammar {
-                    top: 149.26px;
-                    left: 50px;
-                    width: 303px;
-                    height: 124.7px;
+                    margin-top: 5vw;
+                    width: 65vw;
                     display: flex;
-                    position: absolute;
+                    flex-direction: row-reverse;
+                    position: relative;
                     box-sizing: border-box;
+                    align-self: flex-end;
                     align-items: flex-start;
                     flex-shrink: 1;
                     border-color: transparent;
-
-                    .btn {
-                        top: 94.9px;
-                        left: 76.6px;
-                        width: 91px;
-                        height: 29.8px;
+                    .text {
                         display: flex;
-                        overflow: hidden;
-                        position: absolute;
-                        box-sizing: border-box;
-                        align-items: flex-start;
-                        border-color: rgba(255, 94, 149, 1);
-                        border-style: solid;
-                        border-width: 0.6px;
-                        border-radius: 15.7px;
-
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 91px;
-                            height: 30px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 1.25px;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        position: relative;
+                        .btn {
+                            width: 15vw;
+                            height: 4vw;
+                            display: flex;
+                            overflow: hidden;
+                            position: relative;
+                            box-sizing: border-box;
+                            align-items: center;
+                            justify-content: center;
+                            border-color: rgba(255, 94, 149, 1);
+                            border-style: solid;
+                            border-width: 0.63px;
+                            border-radius: 15.7px;
+                            .explore {
+                                color: rgba(255, 94, 149, 1);
+                                width: 100%;
+                                height: auto;
+                                position: relative;
+                                font-size: 2.5vw;
+                                align-self: auto;
+                                text-align: center;
+                                font-family: Noto Sans;
+                                font-weight: 700;
+                                line-height: normal;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
                         }
-
-                        .explore {
-                            top: 4.7px;
-                            color: rgba(255, 94, 149, 1);
-                            width: 91px;
+                        .description {
+                            color: rgba(0, 0, 0, 1);
+                            width: 100%;
                             height: auto;
-                            position: absolute;
-                            font-size: 15px;
+                            position: relative;
+                            font-size: 2.5vw;
                             align-self: auto;
-                            text-align: center;
-                            font-family: Noto Sans;
+                            text-align: right;
+                            font-family: Heebo;
                             font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
                         }
+                        .title {
+                            color: rgba(0, 0, 0, 1);
+                            height: auto;
+                            position: relative;
+                            font-size: 4.5vw;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Heebo;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                     }
-
-                    .description {
-                        top: 29.8px;
-                        left: 0px;
-                        color: rgba(0, 0, 0, 1);
-                        width: 165px;
-                        height: auto;
-                        position: absolute;
-                        font-size: 12.57px;
-                        align-self: auto;
-                        text-align: right;
-                        font-family: Heebo;
-                        font-weight: 700;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .title {
-                        top: 0px;
-                        left: 83.57px;
-                        color: rgba(0, 0, 0, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 20.1px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Heebo;
-                        font-weight: 400;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
                     .icon {
-                        top: 5.2px;
-                        left: 174.8px;
-                        width: 128px;
-                        height: 120px;
-                        position: absolute;
+                        margin-left: 4vw;
+                        width: 20vw;
+                        height: auto;
+                        position: relative;
                         object-fit: cover;
                         border-color: transparent;
                     }
                 }
-
                 .vocabulary {
-                    top: 0px;
-                    left: 0.75px;
-                    width: 335px;
-                    height: 123.3px;
+                    width: 65vw;
                     display: flex;
-                    position: absolute;
+                    flex-direction: row;
+                    position: relative;
                     box-sizing: border-box;
+                    align-self: flex-start;
                     align-items: flex-start;
                     flex-shrink: 1;
                     border-color: transparent;
-
-                    .btn {
-                        top: 93.47px;
-                        left: 127.9px;
-                        width: 91px;
-                        height: 29.8px;
+                    .icon {
+                        margin-right: 4vw;
+                        width: 20vw;
+                        height: auto;
+                        position: relative;
+                        object-fit: cover;
+                        border-color: transparent;
+                    }
+                    .text {
                         display: flex;
-                        overflow: hidden;
-                        position: absolute;
-                        box-sizing: border-box;
-                        align-items: flex-start;
-                        border-color: rgba(79, 102, 209, 1);
-                        border-style: solid;
-                        border-width: 0.63px;
-                        border-radius: 15.7px;
-
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 91px;
-                            height: 30px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 1.27px;
+                        flex-direction: column;
+                        position: relative;
+                        .btn {
+                            width: 15vw;
+                            height: 4vw;
+                            display: flex;
+                            overflow: hidden;
+                            position: relative;
+                            box-sizing: border-box;
+                            align-items: center;
+                            justify-content: center;
+                            border-color: rgba(79, 102, 209, 1);
+                            border-style: solid;
+                            border-width: 0.63px;
+                            border-radius: 15.7px;
+                            .explore {
+                                color: rgba(79, 102, 209, 1);
+                                width: 100%;
+                                height: auto;
+                                position: relative;
+                                font-size: 2.5vw;
+                                align-self: auto;
+                                text-align: center;
+                                font-family: Noto Sans;
+                                font-weight: 700;
+                                line-height: normal;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
                         }
-
-                        .explore {
-                            top: 4.7px;
-                            color: rgba(79, 102, 209, 1);
-                            width: 91px;
+                        .description {
+                            color: rgba(0, 0, 0, 1);
+                            width: 100%;
                             height: auto;
-                            position: absolute;
-                            font-size: 15px;
+                            position: relative;
+                            font-size: 2.5vw;
                             align-self: auto;
-                            text-align: center;
-                            font-family: Noto Sans;
+                            text-align: left;
+                            font-family: Heebo;
                             font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
                         }
-                    }
-
-                    .description {
-                        top: 29.76px;
-                        left: 128px;
-                        color: rgba(0, 0, 0, 1);
-                        width: 207px;
-                        height: auto;
-                        position: absolute;
-                        font-size: 12.57px;
-                        align-self: auto;
-                        text-align: left;
-                        font-family: Heebo;
-                        font-weight: 700;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .title {
-                        top: 0px;
-                        left: 128px;
-                        color: rgba(0, 0, 0, 1);
-                        height: auto;
-                        position: absolute;
-                        font-size: 20.1px;
-                        align-self: auto;
-                        font-style: normal;
-                        text-align: left;
-                        font-family: Heebo;
-                        font-weight: 400;
-                        line-height: normal;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .icon {
-                        top: 6.75px;
-                        left: -9.15px;
-                        width: 117px;
-                        height: 117px;
-                        position: absolute;
-                        object-fit: cover;
-                        border-color: transparent;
+                        .title {
+                            color: rgba(0, 0, 0, 1);
+                            height: auto;
+                            position: relative;
+                            font-size: 4.5vw;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Heebo;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
-
             .mobile-app {
-                top: 1450px;
-                left: 48.65px;
-                width: 331px;
-                height: 220px;
+                width: 100%;
                 display: flex;
-                position: absolute;
+                flex-direction: row;
+                position: relative;
                 box-sizing: border-box;
                 align-items: flex-start;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 4;
-
-                .green-box {
-                    top: 42px;
-                    left: 236px;
-                    width: 67px;
-                    height: 34px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                    background-color: rgba(75, 205, 92, 1);
-                }
-
-                .study {
-                    top: 26.4px;
-                    left: 193.6px;
-                    color: rgba(34, 34, 34, 1);
-                    width: 64px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 12.57px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 16.34px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                }
-
-                .slogan {
-                    top: 44px;
-                    right: 6px;
-                    left: 192.95px;
-                    color: rgba(116, 213, 121, 1);
-                    width: 134px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 18.2px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 800;
-                    line-height: 16.34px;
-                    font-stretch: normal;
-                    text-decoration: none;
-
-                    .text1 {
+                .content {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    .curve {
+                        align-self: flex-end;
+                        margin-right: 5vw;
+                        width: 30vw;
+                        position: relative;
+                        content: url("../img/mobappdottedcurve-mob.svg");
+                    }
+                    .study {
+                        color: rgba(34, 34, 34, 1);
+                        position: relative;
+                        font-size: 3.5vw;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                    .slogan {
                         color: rgba(116, 213, 121, 1);
-                        width: 134px;
+                        width: 100%;
                         height: auto;
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        font-size: 5vw;
                         align-self: auto;
+                        font-style: normal;
                         text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 800;
+                        line-height: 4vw;
+                        font-stretch: normal;
+                        text-decoration: none;
+                        .any {
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            .text1 {
+                                color: rgba(116, 213, 121, 1);
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                            .text3 {
+                                color: rgba(116, 213, 121, 1);
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                        }
+                        .green-box {
+                            width: 20vw;
+                            height: auto;
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                            background-color: rgba(75, 205, 92, 1);
+                            .text2 {
+                                color: rgba(255, 255, 255, 1);
+                                width: 134px;
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                            .text4 {
+                                color: rgba(255, 255, 255, 1);
+                                width: 134px;
+                                height: auto;
+                                align-self: auto;
+                                text-align: left;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .description {
+                        margin-top: 2vw;
+                        margin-bottom: 2vw;
+                        color: rgba(0, 0, 0, 1);
+                        position: relative;
+                        font-size: 1.75vw;
+                        align-self: auto;
+                        font-style: normal;
+                        text-align: left;
+                        font-family: Noto Sans;
+                        font-weight: 500;
+                        line-height: 2.5vw;
                         font-stretch: normal;
                         text-decoration: none;
                     }
-
-                    .text2 {
-                        color: rgba(255, 255, 255, 1);
-                        width: 134px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .text3 {
-                        color: rgba(116, 213, 121, 1);
-                        width: 134px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
-                    }
-
-                    .text4 {
-                        color: rgba(255, 255, 255, 1);
-                        width: 134px;
-                        height: auto;
-                        align-self: auto;
-                        text-align: left;
-                        font-stretch: normal;
-                        text-decoration: none;
+                    .mob-app {
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        .appstore {
+                            width: 15vw;
+                            height: auto;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
+                        .googleplay {
+                            width: 16vw;
+                            height: auto;
+                            position: relative;
+                            object-fit: cover;
+                            border-color: transparent;
+                        }
                     }
                 }
-
-                .description {
-                    top: 79.18px;
-                    left: 192.9px;
-                    color: rgba(0, 0, 0, 1);
-                    width: 133px;
-                    height: auto;
-                    position: absolute;
-                    font-size: 5.6px;
-                    align-self: auto;
-                    font-style: normal;
-                    text-align: left;
-                    font-family: Noto Sans;
-                    font-weight: 500;
-                    line-height: 8.17px;
-                    font-stretch: normal;
-                    text-decoration: none;
-                }
-
-                .appstore {
-                    top: 101.17px;
-                    left: 246.36px;
-                    width: 55px;
-                    height: 16px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .googleplay {
-                    top: 101.17px;
-                    left: 192.9px;
-                    width: 59px;
-                    height: 16px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                }
-
-                .curve {
-                    left: 210.9px;
-                    position: absolute;
-                    content: url("../img/mobappdottedcurve-mob.svg");
-                }
-
                 .illustr {
-                    top: 7px;
                     width: 60%;
                     height: auto;
-                    position: absolute;
+                    position: relative;
                     object-fit: cover;
                     border-color: transparent;
                 }
             }
-
-
             .call-to-action {
-                top: 1700px;
-                left: 30.67px;
-                width: 367px;
-                height: 140.9px;
+                width: 100%;
                 display: flex;
-                position: absolute;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
+                align-items: center;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 3;
-
                 .description {
-                    top: 51.85px;
-                    left: 20.76px;
+                    margin-top: 2vw;
                     color: rgba(116, 213, 121, 1);
-                    width: 326px;
+                    width: 80vw;
                     height: auto;
-                    position: absolute;
-                    font-size: 16px;
+                    position: relative;
+                    font-size: 3vw;
                     align-self: auto;
                     font-style: normal;
                     text-align: center;
                     font-family: Rubik;
                     font-weight: 400;
-                    line-height: 17px;
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .pink-box {
-                    top: 0.63px;
-                    width: 367px;
-                    height: 45px;
+                    width: 80vw;
+                    height: 10vw;
                     position: absolute;
                     object-fit: cover;
                     border-color: transparent;
                     background-color: rgba(255, 94, 149, 1);
                 }
-
                 .slogan {
-                    left: 6.34px;
                     color: rgba(255, 255, 255, 1);
                     height: auto;
-                    position: absolute;
-                    font-size: 30.17px;
+                    position: relative;
+                    font-size: 6.5vw;
                     align-self: auto;
                     font-style: normal;
                     text-align: center;
@@ -2102,42 +1852,24 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .btn {
-                    top: 93.76px;
-                    left: 98.88px;
-                    width: 169px;
-                    height: 47.14px;
+                    margin-top: 5vw;
+                    width: 30vw;
+                    height: 7vw;
                     display: flex;
                     overflow: hidden;
-                    position: absolute;
+                    position: relative;
                     box-shadow: 1.25px 1.25px 8.79px 0px rgba(0, 0, 0, 0.15);
                     box-sizing: border-box;
-                    align-items: flex-start;
+                    align-items: center;
+                    justify-content: center;
                     border-color: transparent;
                     border-radius: 15.7px;
                     background-color: rgba(116, 213, 121, 1);
-
-                    .bg {
-                        top: 0px;
-                        left: 0px;
-                        width: 169px;
-                        height: 47px;
-                        position: absolute;
-                        object-fit: cover;
-                        border-color: rgba(116, 213, 121, 1);
-                        border-width: 0px;
-                        border-radius: 1.25px;
-                        background-color: rgba(116, 213, 121, 1);
-                    }
-
                     .text {
-                        top: 13.35px;
                         color: rgba(255, 255, 255, 1);
-                        width: 169px;
-                        height: auto;
-                        position: absolute;
-                        font-size: 15px;
+                        position: relative;
+                        font-size: 3vw;
                         align-self: auto;
                         font-style: normal;
                         text-align: center;
@@ -2150,45 +1882,27 @@
                     }
                 }
             }
-
             .footer {
                 display: none;
             }
-
             .footer-mobile {
-                top: 1909.85px;
-                left: 0px;
-                width: 428px;
-                height: 116.15px;
+                margin-top: 10vw;
+                width: 100%;
+                height: 25vw;
                 display: flex;
-                position: absolute;
+                flex-direction: column;
+                position: relative;
                 box-sizing: border-box;
-                align-items: flex-start;
+                align-items: center;
                 flex-shrink: 1;
                 border-color: transparent;
-                z-index: 2;
-
-                .bg {
-                    top: 0px;
-                    left: 0px;
-                    width: 428px;
-                    height: 116px;
-                    position: absolute;
-                    object-fit: cover;
-                    border-color: transparent;
-                    border-radius: 125px 125px 0 0;
-                    background-color: rgba(49, 77, 202, 1);
-                }
-
+                border-radius: 125px 125px 0 0;
+                background-color: rgba(49, 77, 202, 1);
                 .slogan {
-                    top: 91.15px;
-                    left: 0px;
                     color: rgba(116, 213, 121, 1);
-                    right: 0px;
-                    height: auto;
-                    margin: auto;
-                    position: absolute;
-                    font-size: 14px;
+                    margin-bottom: 5vw;
+                    position: relative;
+                    font-size: 2vw;
                     align-self: auto;
                     font-style: normal;
                     text-align: center;
@@ -2198,16 +1912,10 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .logo {
-                    top: 50.15px;
-                    left: 0px;
                     color: rgba(255, 255, 255, 1);
-                    right: 0px;
-                    height: auto;
-                    margin: auto;
-                    position: absolute;
-                    font-size: 30.17px;
+                    position: relative;
+                    font-size: 7vw;
                     align-self: auto;
                     font-style: normal;
                     text-align: center;
@@ -2217,15 +1925,11 @@
                     font-stretch: normal;
                     text-decoration: none;
                 }
-
                 .socnet {
-                    top: 19px;
-                    left: 0px;
-                    right: 0px;
-                    width: auto;
-                    height: 29px;
-                    margin: auto;
-                    position: absolute;
+                    margin-top: 5vw;
+                    width: 25vw;
+                    height: auto;
+                    position: relative;
                     object-fit: cover;
                     border-color: transparent;
                 }
