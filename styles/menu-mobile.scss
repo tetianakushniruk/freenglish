@@ -23,7 +23,7 @@
             opacity: 1;
             transform: scaleY(1);
             transition: 0.5s, opacity 0.1s;
-            .active {
+            &.active {
                 color: rgba(255, 94, 149, 1);
             }
             @for $i from 1 through 4 {

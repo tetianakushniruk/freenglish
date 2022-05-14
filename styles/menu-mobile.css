@@ -31,7 +31,7 @@
   transition: 0.5s, opacity 0.1s;
 }
 
-#toggle:checked ~ .nav .nav-item .active {
+#toggle:checked ~ .nav .nav-item.active {
   color: #ff5e95;
 }
 
