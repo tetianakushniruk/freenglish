@@ -1690,7 +1690,8 @@
                 }
                 .btn {
                     margin-top: 5vw;
-                    width: 200px;
+                    width: 50vw;
+                    max-width: 200px;
                     height: 40px;
                     display: flex;
                     overflow: hidden;
@@ -1718,7 +1719,7 @@
                         width: 329px;
                         height: auto;
                         position: relative;
-                        font-size: 15px;
+                        font-size: calc(10px + 0.5rem);
                         align-self: center;
                         justify-content: center;
                         font-style: normal;
