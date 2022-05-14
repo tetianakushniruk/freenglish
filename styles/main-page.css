@@ -1500,7 +1500,6 @@
   }
   .main-page-container .main-page {
     width: 100%;
-    min-height: 2026px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
