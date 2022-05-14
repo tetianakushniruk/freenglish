@@ -331,7 +331,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 position: relative;
-                .tests {
+                .item.tests {
                     width: 333px;
                     height: 334.6px;
                     display: flex;
@@ -405,7 +405,7 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-                    .icon {
+                    .icon img {
                         top: 1.16px;
                         left: 50px;
                         width: 201px;
@@ -415,7 +415,7 @@
                         border-color: transparent;
                     }
                 }
-                .grammar {
+                .item.grammar {
                     width: 333px;
                     height: 334px;
                     display: flex;
@@ -489,7 +489,7 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-                    .icon {
+                    .icon img{
                         top: 1.16px;
                         left: 49.4px;
                         width: 201px;
@@ -499,7 +499,7 @@
                         border-color: transparent;
                     }
                 }
-                .vocabulary {
+                .item.vocabulary {
                     width: 333px;
                     height: 334px;
                     display: flex;
@@ -573,7 +573,7 @@
                         font-stretch: normal;
                         text-decoration: none;
                     }
-                    .icon {
+                    .icon img{
                         top: 1.16px;
                         left: 50.4px;
                         width: 201px;

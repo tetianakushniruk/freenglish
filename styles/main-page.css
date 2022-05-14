@@ -421,7 +421,7 @@
             justify-content: space-between;
     position: relative;
   }
-  .main-page-container .main-page .sections .tests {
+  .main-page-container .main-page .sections .item.tests {
     width: 333px;
     height: 334.6px;
     display: -webkit-box;
@@ -436,7 +436,7 @@
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-  .main-page-container .main-page .sections .tests .btn {
+  .main-page-container .main-page .sections .item.tests .btn {
     top: 278.6px;
     left: 24px;
     width: 255px;
@@ -456,7 +456,7 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .tests .btn .explore {
+  .main-page-container .main-page .sections .item.tests .btn .explore {
     top: 16px;
     left: 0px;
     color: #74d579;
@@ -475,7 +475,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .tests .description {
+  .main-page-container .main-page .sections .item.tests .description {
     top: 229px;
     left: 0px;
     color: black;
@@ -494,7 +494,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .tests .title {
+  .main-page-container .main-page .sections .item.tests .title {
     top: 196.6px;
     left: 0px;
     color: black;
@@ -513,7 +513,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .tests .icon {
+  .main-page-container .main-page .sections .item.tests .icon img {
     top: 1.16px;
     left: 50px;
     width: 201px;
@@ -523,7 +523,7 @@
        object-fit: cover;
     border-color: transparent;
   }
-  .main-page-container .main-page .sections .grammar {
+  .main-page-container .main-page .sections .item.grammar {
     width: 333px;
     height: 334px;
     display: -webkit-box;
@@ -538,7 +538,7 @@
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-  .main-page-container .main-page .sections .grammar .btn {
+  .main-page-container .main-page .sections .item.grammar .btn {
     top: 278px;
     left: 23px;
     width: 255px;
@@ -558,7 +558,7 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .grammar .btn .explore {
+  .main-page-container .main-page .sections .item.grammar .btn .explore {
     top: 16px;
     left: 0px;
     color: #ff5e95;
@@ -577,7 +577,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .grammar .description {
+  .main-page-container .main-page .sections .item.grammar .description {
     top: 228px;
     left: 0px;
     color: black;
@@ -596,7 +596,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .grammar .title {
+  .main-page-container .main-page .sections .item.grammar .title {
     top: 199px;
     left: 0px;
     color: black;
@@ -615,7 +615,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .grammar .icon {
+  .main-page-container .main-page .sections .item.grammar .icon img {
     top: 1.16px;
     left: 49.4px;
     width: 201px;
@@ -625,7 +625,7 @@
        object-fit: cover;
     border-color: transparent;
   }
-  .main-page-container .main-page .sections .vocabulary {
+  .main-page-container .main-page .sections .item.vocabulary {
     width: 333px;
     height: 334px;
     display: -webkit-box;
@@ -640,7 +640,7 @@
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-  .main-page-container .main-page .sections .vocabulary .btn {
+  .main-page-container .main-page .sections .item.vocabulary .btn {
     top: 278px;
     left: 24px;
     width: 255px;
@@ -660,7 +660,7 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .vocabulary .btn .explore {
+  .main-page-container .main-page .sections .item.vocabulary .btn .explore {
     top: 16px;
     left: 0px;
     color: #4f66d1;
@@ -679,7 +679,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .vocabulary .description {
+  .main-page-container .main-page .sections .item.vocabulary .description {
     top: 228px;
     left: 0px;
     color: black;
@@ -698,7 +698,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .vocabulary .title {
+  .main-page-container .main-page .sections .item.vocabulary .title {
     top: 198.6px;
     left: 0px;
     color: black;
@@ -717,7 +717,7 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .vocabulary .icon {
+  .main-page-container .main-page .sections .item.vocabulary .icon img {
     top: 1.16px;
     left: 50.4px;
     width: 201px;
