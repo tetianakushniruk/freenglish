@@ -850,7 +850,8 @@
     text-decoration: none;
   }
   .tests-container .tests-page .topics {
-    width: 60%;
+    width: 75%;
+    max-width: 600px;
     min-width: 220px;
     margin-top: 5vw;
     margin-bottom: 5vw;
