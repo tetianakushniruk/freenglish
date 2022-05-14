@@ -1,785 +1,1041 @@
-.tests-container {
-  min-height: 100vh;
+@media only screen and (min-width: 1028px) {
+  .tests-container {
+    min-height: 100vh;
+  }
+  .tests-container .header-mobile {
+    display: none;
+  }
+  .tests-container .tests-page {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-color: transparent;
+    background-color: white;
+  }
+  .tests-container .tests-page .header {
+    width: 100%;
+    max-width: 1440px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 105px;
+            flex: 0 1 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-color: transparent;
+    background-color: #314dca;
+  }
+  .tests-container .tests-page .header .menu {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 439px;
+            flex: 0 1 439px;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .header .menu .home {
+    color: white;
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    position: relative;
+  }
+  .tests-container .tests-page .header .menu .vocabulary {
+    color: white;
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    position: relative;
+  }
+  .tests-container .tests-page .header .menu .grammar {
+    color: white;
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    position: relative;
+  }
+  .tests-container .tests-page .header .menu .tests {
+    color: #ff5e95;
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    position: relative;
+  }
+  .tests-container .tests-page .header .logo {
+    color: white;
+    width: 209px;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Noto Sans;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .ellipses {
+    position: relative;
+  }
+  .tests-container .tests-page .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .title .description {
+    color: #222222;
+    height: auto;
+    position: relative;
+    font-size: 24px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .title .text {
+    color: #222222;
+    height: auto;
+    position: relative;
+    font-size: 64px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics {
+    width: 75%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    min-height: 420px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .tests-container .tests-page .topics .item:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    border-width: 5px;
+  }
+  .tests-container .tests-page .topics .forschools-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .forschools-section .text {
+    color: #4bcd5c;
+    position: relative;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .generaleng-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .generaleng-section .text {
+    color: #ff5e95;
+    position: relative;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .businesseng-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .businesseng-section .text {
+    color: #4bcd5c;
+    position: relative;
+    font-size: 45px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .curve {
+    top: 108.8px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  .tests-container .tests-page .topics .curve img {
+    width: 100%;
+    height: 100%;
+  }
+  .tests-container .tests-page .footer {
+    width: 100%;
+    max-width: 1440px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 493px;
+            flex: 0 1 493px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+    background-color: #314dca;
+  }
+  .tests-container .tests-page .footer .sections {
+    margin-right: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 536px;
+            flex: 0 1 536px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .tests-container .tests-page .footer .sections .service-section {
+    width: 84px;
+    height: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .sections .service-section .service {
+    top: 0px;
+    left: 0px;
+    color: #ff5e95;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .service-section .download {
+    top: 50px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .service-section .vocabulary {
+    top: 90px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .service-section .grammar {
+    top: 130px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .service-section .tests {
+    top: 170px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .service-section .resourses {
+    top: 210px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .company-section {
+    width: 82px;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .sections .company-section .company {
+    top: 0px;
+    left: 0px;
+    color: #ff5e95;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .company-section .about-us {
+    top: 90px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .company-section .faq {
+    top: 50px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .company-section .support {
+    top: 130px;
+    left: 0px;
+    color: white;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .privacy-section {
+    width: 97px;
+    height: 118px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .sections .privacy-section .privacy {
+    top: 0px;
+    left: 0px;
+    color: #ff5e95;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .sections .privacy-section .terms-of-use {
+    top: 50px;
+    left: 0px;
+    color: white;
+    width: 97px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .side-info {
+    margin-left: 120px;
+    margin-right: 90px;
+    min-height: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 370px;
+            flex: 0 1 370px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .tests-container .tests-page .footer .side-info .slogan {
+    color: #74d579;
+    width: 252px;
+    height: auto;
+    position: relative;
+    font-size: 18px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .side-info .download {
+    color: white;
+    width: 130px;
+    height: auto;
+    position: relative;
+    font-size: 18px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer .side-info .socnet {
+    width: 194px;
+    height: 34px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .side-info .mob-app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .tests-container .tests-page .footer .side-info .mob-app .googleplay {
+    width: 187px;
+    height: 52px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .side-info .mob-app .appstore {
+    width: 176px;
+    height: 52px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .footer .side-info .logo {
+    color: white;
+    height: auto;
+    position: relative;
+    font-size: 72px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Noto Sans;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer-mobile {
+    display: none;
+  }
 }
 
-.tests-page {
-  width: 1440px;
-  height: 1580px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  max-width: 1440px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  border-color: transparent;
-  background-color: white;
-}
-
-.tests-page .header {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-  background-color: #314dca;
-  z-index: 5;
-}
-
-.tests-page .header .menu {
-  top: 42.5px;
-  left: 754px;
-  width: 437px;
-  height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-color: transparent;
-}
-
-.tests-page .header .menu .home {
-  color: white;
-  height: auto;
-  margin: 0 56px 0 0;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 300px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .header .menu .vocabulary {
-  color: white;
-  height: auto;
-  margin: 0 56px 0 0;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 300px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .header .menu .grammar {
-  color: white;
-  height: auto;
-  margin: 0 56px 0 0;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 300px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .header .menu .tests {
-  color: #ff5e95;
-  height: auto;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .header .logo {
-  top: 25.5px;
-  left: 249px;
-  color: white;
-  width: 209px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 900;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .ellipses {
-  top: 80px;
-  left: 583px;
-  width: 274;
-  height: 129;
-  position: absolute;
-  z-index: 4;
-}
-
-.tests-page .title {
-  top: 200px;
-  left: 382px;
-  width: 677px;
-  height: 130px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-  z-index: 3;
-}
-
-.tests-page .title .slogan {
-  top: 97px;
-  left: 0px;
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: Noto Sans;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .title .text {
-  top: 0px;
-  left: 261px;
-  color: rgba(34, 34, 34, 1);
-  height: auto;
-  position: absolute;
-  font-size: 64px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: Noto Sans;
-  font-weight: 400px;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .topics {
-  top: 460.6px;
-  left: 174px;
-  width: 1090px;
-  height: 420px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-  z-index: 2;
-}
-
-.tests-page .topics .forschools-section {
-  top: 200px;
-  left: 75.1px;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .topics .forschools-section .ellipse {
-  width: 220px;
-  height: 220px;
-  border: 2.5px solid #314DCA;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.tests-page .topics .forschools-section .text {
-  top: 64px;
-  left: 0px;
-  color: #4bcd5c;
-  right: 0px;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  font-size: 45px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: Noto Sans;
-  font-weight: 900;
-  line-height: 103.2%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .topics .generaleng-section {
-  top: 0px;
-  left: 434.6px;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .topics .generaleng-section .ellipse {
-  width: 220px;
-  height: 220px;
-  border: 2.5px solid #314DCA;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.tests-page .topics .generaleng-section .text {
-  top: 64px;
-  left: 0px;
-  color: #ff5e95;
-  right: 0px;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  font-size: 45px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: Noto Sans;
-  font-weight: 900;
-  line-height: 103.2%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .topics .businesseng-section {
-  top: 200px;
-  left: 794px;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .topics .businesseng-section .ellipse {
-  width: 220px;
-  height: 220px;
-  border: 2.5px solid #314DCA;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.tests-page .topics .businesseng-section .text {
-  top: 64px;
-  left: 0px;
-  color: #4bcd5c;
-  right: 0px;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  font-size: 45px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: Noto Sans;
-  font-weight: 900;
-  line-height: 103.2%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .topics .curve {
-  top: 108.8px;
-  width: 1090;
-  height: 193;
-  position: absolute;
-}
-
-.tests-page .footer {
-  top: 1087px;
-  left: 0px;
-  width: 1440px;
-  height: 493px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-  background-color: #314dca;
-  z-index: 1;
-}
-
-.tests-page .footer .service-section {
-  top: 127px;
-  left: 712px;
-  width: 84px;
-  height: 240px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .footer .service-section .service {
-  top: 0px;
-  left: 0px;
-  color: #ff5e95;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 500;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .service-section .download {
-  top: 50px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .service-section .vocabulary {
-  top: 90px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .service-section .grammar {
-  top: 130px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .service-section .tests {
-  top: 170px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .service-section .resourses {
-  top: 210px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .company-section {
-  top: 127px;
-  left: 904px;
-  width: 82px;
-  height: 160px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .footer .company-section .company {
-  top: 0px;
-  left: 0px;
-  color: #ff5e95;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 500;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .company-section .about-us {
-  top: 90px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .company-section .faq {
-  top: 50px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .company-section .support {
-  top: 130px;
-  left: 0px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .privacy-section {
-  top: 127px;
-  left: 1094px;
-  width: 97px;
-  height: 118px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  border-color: transparent;
-}
-
-.tests-page .footer .privacy-section .privacy {
-  top: 0px;
-  left: 0px;
-  color: #ff5e95;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 500;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .privacy-section .terms-of-use {
-  top: 50px;
-  left: 0px;
-  color: white;
-  width: 97px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .slogan {
-  top: 182px;
-  left: 255px;
-  color: #74d579;
-  width: 252px;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .download {
-  top: 311px;
-  left: 255px;
-  color: white;
-  width: 130px;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Rubik;
-  font-weight: 400px;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.tests-page .footer .socnet {
-  top: 241px;
-  left: 255px;
-  width: 194px;
-  height: 34px;
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-color: transparent;
-}
-
-.tests-page .footer .googleplay {
-  top: 348px;
-  left: 255px;
-  width: 187px;
-  height: 52px;
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-color: transparent;
-}
-
-.tests-page .footer .appstore {
-  top: 348px;
-  left: 432px;
-  width: 176px;
-  height: 52px;
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-color: transparent;
-}
-
-.tests-page .footer .logo {
-  top: 92px;
-  left: 250px;
-  color: white;
-  height: auto;
-  position: absolute;
-  font-size: 72px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: Noto Sans;
-  font-weight: 900;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+@media only screen and (max-width: 1027px) {
+  .tests-container {
+    min-height: 100vh;
+  }
+  .tests-container .tests-page {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-color: transparent;
+    background-color: white;
+  }
+  .tests-container .tests-page .header {
+    display: none;
+  }
+  .tests-container .tests-page .header-mobile {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    font-style: normal;
+    font-family: Noto Sans;
+    font-weight: 800;
+    border-color: transparent;
+    background-color: #314dca;
+    border-radius: 0 0 100px 100px;
+  }
+  .tests-container .tests-page .header-mobile .logo {
+    color: white;
+    position: relative;
+    font-size: 4rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Noto Sans;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .ellipses {
+    position: relative;
+  }
+  .tests-container .tests-page .title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+  }
+  .tests-container .tests-page .title .description {
+    color: #222222;
+    height: auto;
+    position: relative;
+    font-size: 24px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .title .text {
+    color: #222222;
+    height: auto;
+    position: relative;
+    font-size: 64px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics {
+    width: 60%;
+    min-width: 220px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    min-height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tests-container .tests-page .topics .item:hover {
+    border-width: 5px;
+  }
+  .tests-container .tests-page .topics .forschools-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .forschools-section .text {
+    color: #4bcd5c;
+    position: relative;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .generaleng-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .generaleng-section .text {
+    color: #ff5e95;
+    position: relative;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .businesseng-section {
+    width: 220px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border: 2.5px solid #314DCA;
+    border-radius: 50%;
+  }
+  .tests-container .tests-page .topics .businesseng-section .text {
+    color: #4bcd5c;
+    position: relative;
+    font-size: 45px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .topics .curve {
+    display: none;
+  }
+  .tests-container .tests-page .footer {
+    display: none;
+  }
+  .tests-container .tests-page .footer-mobile {
+    margin-top: 10vw;
+    width: 100%;
+    height: 25vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    border-color: transparent;
+    border-radius: 125px 125px 0 0;
+    background-color: #314dca;
+  }
+  .tests-container .tests-page .footer-mobile .slogan {
+    color: #74d579;
+    margin-bottom: 5vw;
+    position: relative;
+    font-size: 2vw;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Rubik;
+    font-weight: 400px;
+    line-height: 9.43px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer-mobile .logo {
+    color: white;
+    position: relative;
+    font-size: 7vw;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .tests-container .tests-page .footer-mobile .socnet {
+    margin-top: 5vw;
+    width: 25vw;
+    height: auto;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-color: transparent;
+  }
 }
 /*# sourceMappingURL=tests.css.map */

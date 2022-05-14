@@ -19,19 +19,35 @@
     />
     <link rel="stylesheet" href="../styles/style.css" />
     <link href="../styles/tests.css" rel="stylesheet" />
+    <link href="../styles/menu-mobile.css" rel="stylesheet" /> 
   </head>
   <body>
     <div>
       <div class="tests-container">
         <div class="tests-page">
+          <div class="header-mobile">
+            <div class="menu">
+              <input id="toggle" type="checkbox">
+            <label class="toggle-container" for="toggle">
+              <span class="button button-toggle"></span>
+            </label>
+            <nav class="nav">
+              <a class="nav-item" href="./index.html">Home</a>
+              <a class="nav-item" href="./vocabulary.html">Vocabulary</a>
+              <a class="nav-item" href="./grammar.html">Grammar</a>
+              <a class="nav-item active" href="./tests.html">Tests</a>
+            </nav>
+            </div>
+            <span class="logo">Freenglish</span>
+          </div>
           <div class="header">
+            <span class="logo">Freenglish</span>
             <div class="menu">
               <a class="home" href="./index.html">Home</a>
               <a class="vocabulary" href="./vocabulary.html">Vocabulary</a>
               <a class="grammar" href="./grammar.html">Grammar</a>
               <a class="tests" href="./tests.html">Tests</a>
             </div>
-            <span class="logo">Freenglish</span>
           </div>
           <img
             src="../img/ellipses.svg"
@@ -39,13 +55,13 @@
           />
           <div class="title">
             <span class="text">Tests</span>
-            <span class="slogan">
+            <span class="description">
               Find out level of your knowledge with quick, free online test.
             </span>
           </div>
           
           <div class="topics">
-            <div class="forschools-section">
+            <div class="item forschools-section">
               <div class="ellipse"></div>
               <span class="text">
                 <span>For</span>
@@ -53,7 +69,7 @@
                 <span>Schools</span>
               </span>
             </div>
-            <div class="generaleng-section">
+            <div class="item generaleng-section">
               <div class="ellipse"></div>
               <span class="text">
                 <span>General</span>
@@ -61,7 +77,7 @@
                 <span>English</span>
               </span>
             </div>
-            <div class="businesseng-section">
+            <div class="item businesseng-section">
               <div class="ellipse"></div>
               <span class="text">
                 <span>Business</span>
@@ -69,51 +85,68 @@
                 <span>English</span>
               </span>
             </div>
-            <img
-              src="../img/curve.svg"
-              class="curve"
-            />
+            <div class="curve">
+              <img src="../img/curve.svg" />
+            </div>
           </div>
           <div class="footer">
-            <span class="logo">Freenglish</span>
-            <span class="slogan">
-              Improve your English with us!
-            </span>
+            <div class="side-info">
+              <span class="logo">Freenglish</span>
+              <span class="slogan">
+                Improve your English with us!
+              </span>
+              <img
+                src="../img/socnet.svg"
+                class="socnet"
+              />
+              <span class="download">Download for:</span>
+              <div class="mob-app">
+                <img
+                src="../img/googleplayicon.png"
+                class="googleplay"
+                />
+                <img
+                  src="../img/appstoreicon.png"
+                  class="appstore"
+                />
+            </div>
+            </div>
+            <div class="sections">
+              <div class="service-section">
+                <span class="service">Service</span>
+                <span class="download">Download</span>
+                <span class="vocabulary">Vocabulary</span>
+                <span class="grammar">Grammar</span>
+                <span class="tests">Tests</span>
+                <span class="resourses">Resourses</span>
+              </div>
+              <div class="company-section">
+                <span class="company">Company</span>
+                <span class="about-us">FAQ</span>
+                <span class="faq">About Us</span>
+                <span class="support">Support</span>
+              </div>
+              <div class="privacy-section">
+                <span class="privacy">Privacy</span>
+                <span class="terms-of-use">
+                  <span>Terms of Use</span>
+                  <br />
+                  <span></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-mobile">
             <img
               src="../img/socnet.svg"
               class="socnet"
             />
-            <span class="download">Download for:</span>
-            <img
-              src="../img/googleplayicon.png"
-              class="googleplay"
-            />
-            <img
-              src="../img/appstoreicon.png"
-              class="appstore"
-            />
-            <div class="service-section">
-              <span class="service">Service</span>
-              <span class="download">Download</span>
-              <span class="vocabulary">Vocabulary</span>
-              <span class="grammar">Grammar</span>
-              <span class="tests">Tests</span>
-              <span class="resourses">Resourses</span>
-            </div>
-            <div class="company-section">
-              <span class="company">Company</span>
-              <span class="about-us">FAQ</span>
-              <span class="faq">About Us</span>
-              <span class="support">Support</span>
-            </div>
-            <div class="privacy-section">
-              <span class="privacy">Privacy</span>
-              <span class="terms-of-use">
-                <span>Terms of Use</span>
-                <br />
-                <span></span>
-              </span>
-            </div>
+            <span class="logo">Freenglish</span>
+            
+            <span class="slogan">
+              Improve your English with us!
+            </span>
+            
           </div>
         </div>
       </div>
