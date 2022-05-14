@@ -353,17 +353,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 255px;
-                            height: 56px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 4px;
-                        }
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -376,7 +365,7 @@
                             font-style: normal;
                             text-align: center;
                             font-family: Noto Sans;
-                            font-weight: 700px;
+                            font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
@@ -448,17 +437,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 255px;
-                            height: 56px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 4px;
-                        }
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -471,7 +449,7 @@
                             font-style: normal;
                             text-align: center;
                             font-family: Noto Sans;
-                            font-weight: 700px;
+                            font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
@@ -543,17 +521,6 @@
                         border-style: solid;
                         border-width: 2px;
                         border-radius: 50px;
-                        .border {
-                            top: 0px;
-                            left: 0px;
-                            width: 255px;
-                            height: 56px;
-                            position: absolute;
-                            object-fit: cover;
-                            border-color: rgba(17, 181, 228, 1);
-                            border-width: 0px;
-                            border-radius: 4px;
-                        }
                         .explore {
                             top: 16px;
                             left: 0px;
@@ -566,7 +533,7 @@
                             font-style: normal;
                             text-align: center;
                             font-family: Noto Sans;
-                            font-weight: 700px;
+                            font-weight: 700;
                             line-height: normal;
                             font-stretch: normal;
                             text-decoration: none;
@@ -1412,76 +1379,41 @@
             .sections {
                 margin-top: 15vw;
                 width: 85%;
+                height: calc(1027px - 35vw);
                 display: flex;
                 flex-direction: column;
+                justify-content: space-around;
                 position: relative;
                 box-sizing: border-box;
                 align-self: center;
                 flex-shrink: 1;
                 border-color: transparent;
-                .tests {
-                    margin-top: 5vw;
-                    width: 65vw;
+                .item{
+                    width: 100%;
                     display: flex;
-                    flex-direction: row;
                     position: relative;
-                    box-sizing: border-box;
-                    align-self: flex-start;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-                    .text {
+                    flex-direction: row;
+                    .icon {
+                        max-width: 200px;
+                        position: relative;
+                        align-self: center;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .text{
+                        width: 60%;
+                        max-width: 350px;
                         display: flex;
                         flex-direction: column;
                         position: relative;
-                        .btn {
-                            width: 15vw;
-                            height: 4vw;
-                            display: flex;
-                            overflow: hidden;
-                            position: relative;
-                            box-sizing: border-box;
-                            align-items: center;
-                            justify-content: center;
-                            border-color: rgba(116, 213, 121, 1);
-                            border-style: solid;
-                            border-width: 0.63px;
-                            border-radius: 15.7px;
-                            .explore {
-                                color: rgba(116, 213, 121, 1);
-                                width: 100%;
-                                height: auto;
-                                position: relative;
-                                font-size: 2.5vw;
-                                align-self: auto;
-                                text-align: center;
-                                font-family: Noto Sans;
-                                font-weight: 700;
-                                line-height: normal;
-                                font-stretch: normal;
-                                text-decoration: none;
-                            }
-                        }
-                        .description {
-                            color: rgba(0, 0, 0, 1);
-                            width: 100%;
-                            height: auto;
-                            position: relative;
-                            font-size: 2.5vw;
-                            align-self: auto;
-                            font-style: normal;
-                            text-align: left;
-                            font-family: Heebo;
-                            font-weight: 700;
-                            line-height: normal;
-                            font-stretch: normal;
-                            text-decoration: none;
-                        }
+                        justify-content: space-between;
                         .title {
                             color: rgba(0, 0, 0, 1);
                             height: auto;
                             position: relative;
-                            font-size: 4.5vw;
+                            font-size: 25px;
                             align-self: auto;
                             font-style: normal;
                             text-align: left;
@@ -1491,188 +1423,94 @@
                             font-stretch: normal;
                             text-decoration: none;
                         }
-                    }
-                    .icon {
-                        margin-right: 4vw;
-                        width: 20vw;
-                        height: auto;
-                        position: relative;
-                        object-fit: cover;
-                        border-color: transparent;
-                    }
-                }
-                .grammar {
-                    margin-top: 5vw;
-                    width: 65vw;
-                    display: flex;
-                    flex-direction: row-reverse;
-                    position: relative;
-                    box-sizing: border-box;
-                    align-self: flex-end;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-                    .text {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-end;
-                        position: relative;
+                        .description {
+                            color: rgba(0, 0, 0, 1);
+                            width: 100%;
+                            height: auto;
+                            position: relative;
+                            font-size: 20px;
+                            align-self: auto;
+                            font-style: normal;
+                            text-align: left;
+                            font-family: Heebo;
+                            font-weight: 600;
+                            line-height: normal;
+                            font-stretch: normal;
+                            text-decoration: none;
+                        }
                         .btn {
-                            width: 15vw;
-                            height: 4vw;
+                            width: 40vw;
+                            max-width: 255px;
+                            height: 40px;
                             display: flex;
                             overflow: hidden;
                             position: relative;
                             box-sizing: border-box;
                             align-items: center;
                             justify-content: center;
-                            border-color: rgba(255, 94, 149, 1);
                             border-style: solid;
-                            border-width: 0.63px;
-                            border-radius: 15.7px;
+                            border-width: 2px;
+                            border-radius: 50px;
                             .explore {
+                                width: 100%;
+                                height: auto;
+                                position: relative;
+                                font-size: 20px;
+                                align-self: auto;
+                                font-style: normal;
+                                text-align: center;
+                                font-family: Noto Sans;
+                                font-weight: 700;
+                                line-height: normal;
+                                font-stretch: normal;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    &.vocabulary {
+                        .icon{
+                            margin-right: 4vw;
+                        }
+                        .text .btn{
+                            color: rgba(79, 102, 209, 1);
+                        }
+                    }
+                    &.grammar {
+                        flex-direction: row-reverse;
+                        .icon{
+                            margin-left: 4vw;
+                        }
+                        .text {
+                            align-items: flex-end;
+                            .description{
+                                text-align: right;
+                            }
+                            .btn{
                                 color: rgba(255, 94, 149, 1);
-                                width: 100%;
-                                height: auto;
-                                position: relative;
-                                font-size: 2.5vw;
-                                align-self: auto;
-                                text-align: center;
-                                font-family: Noto Sans;
-                                font-weight: 700;
-                                line-height: normal;
-                                font-stretch: normal;
-                                text-decoration: none;
                             }
                         }
-                        .description {
-                            color: rgba(0, 0, 0, 1);
-                            width: 100%;
-                            height: auto;
-                            position: relative;
-                            font-size: 2.5vw;
-                            align-self: auto;
-                            text-align: right;
-                            font-family: Heebo;
-                            font-weight: 700;
-                            line-height: normal;
-                            font-stretch: normal;
-                            text-decoration: none;
-                        }
-                        .title {
-                            color: rgba(0, 0, 0, 1);
-                            height: auto;
-                            position: relative;
-                            font-size: 4.5vw;
-                            align-self: auto;
-                            font-style: normal;
-                            text-align: left;
-                            font-family: Heebo;
-                            font-weight: 400;
-                            line-height: normal;
-                            font-stretch: normal;
-                            text-decoration: none;
-                        }
                     }
-                    .icon {
-                        margin-left: 4vw;
-                        width: 20vw;
-                        height: auto;
-                        position: relative;
-                        object-fit: cover;
-                        border-color: transparent;
-                    }
-                }
-                .vocabulary {
-                    width: 65vw;
-                    display: flex;
-                    flex-direction: row;
-                    position: relative;
-                    box-sizing: border-box;
-                    align-self: flex-start;
-                    align-items: flex-start;
-                    flex-shrink: 1;
-                    border-color: transparent;
-                    .icon {
-                        margin-right: 4vw;
-                        width: 20vw;
-                        height: auto;
-                        position: relative;
-                        object-fit: cover;
-                        border-color: transparent;
-                    }
-                    .text {
-                        display: flex;
-                        flex-direction: column;
-                        position: relative;
-                        .btn {
-                            width: 15vw;
-                            height: 4vw;
-                            display: flex;
-                            overflow: hidden;
-                            position: relative;
-                            box-sizing: border-box;
-                            align-items: center;
-                            justify-content: center;
-                            border-color: rgba(79, 102, 209, 1);
-                            border-style: solid;
-                            border-width: 0.63px;
-                            border-radius: 15.7px;
-                            .explore {
-                                color: rgba(79, 102, 209, 1);
-                                width: 100%;
-                                height: auto;
-                                position: relative;
-                                font-size: 2.5vw;
-                                align-self: auto;
-                                text-align: center;
-                                font-family: Noto Sans;
-                                font-weight: 700;
-                                line-height: normal;
-                                font-stretch: normal;
-                                text-decoration: none;
-                            }
+                    &.tests {
+                        .icon{
+                            margin-right: 4vw;
                         }
-                        .description {
-                            color: rgba(0, 0, 0, 1);
-                            width: 100%;
-                            height: auto;
-                            position: relative;
-                            font-size: 2.5vw;
-                            align-self: auto;
-                            text-align: left;
-                            font-family: Heebo;
-                            font-weight: 700;
-                            line-height: normal;
-                            font-stretch: normal;
-                            text-decoration: none;
-                        }
-                        .title {
-                            color: rgba(0, 0, 0, 1);
-                            height: auto;
-                            position: relative;
-                            font-size: 4.5vw;
-                            align-self: auto;
-                            font-style: normal;
-                            text-align: left;
-                            font-family: Heebo;
-                            font-weight: 400;
-                            line-height: normal;
-                            font-stretch: normal;
-                            text-decoration: none;
+                        .text .btn{
+                            color: rgba(116, 213, 121, 1);
                         }
                     }
                 }
             }
             .mobile-app {
-                width: 100%;
+                margin-top: 5vw;
+                width: 80%;
                 display: flex;
                 flex-direction: row;
                 position: relative;
                 box-sizing: border-box;
                 align-items: flex-start;
+                justify-content: space-around;
+                align-self: center;
                 flex-shrink: 1;
-                border-color: transparent;
                 .content {
                     position: relative;
                     display: flex;
@@ -1687,7 +1525,7 @@
                     .study {
                         color: rgba(34, 34, 34, 1);
                         position: relative;
-                        font-size: 3.5vw;
+                        font-size: 2rem;
                         align-self: auto;
                         font-style: normal;
                         text-align: left;
@@ -1704,13 +1542,13 @@
                         display: flex;
                         flex-direction: row;
                         position: relative;
-                        font-size: 5vw;
+                        font-size: 2.5rem;
                         align-self: auto;
                         font-style: normal;
                         text-align: left;
                         font-family: Noto Sans;
                         font-weight: 800;
-                        line-height: 4vw;
+                        line-height: 2.2rem;
                         font-stretch: normal;
                         text-decoration: none;
                         .any {
@@ -1733,7 +1571,7 @@
                             }
                         }
                         .green-box {
-                            width: 20vw;
+                            width: 9rem;
                             height: auto;
                             display: flex;
                             flex-direction: column;
@@ -1766,13 +1604,12 @@
                         margin-bottom: 2vw;
                         color: rgba(0, 0, 0, 1);
                         position: relative;
-                        font-size: 1.75vw;
+                        font-size: 1.2rem;
                         align-self: auto;
                         font-style: normal;
                         text-align: left;
                         font-family: Noto Sans;
                         font-weight: 500;
-                        line-height: 2.5vw;
                         font-stretch: normal;
                         text-decoration: none;
                     }
@@ -1801,10 +1638,10 @@
                     height: auto;
                     position: relative;
                     object-fit: cover;
-                    border-color: transparent;
                 }
             }
             .call-to-action {
+                margin-top: 5vw;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -1853,31 +1690,45 @@
                 }
                 .btn {
                     margin-top: 5vw;
-                    width: 30vw;
-                    height: 7vw;
+                    width: 200px;
+                    height: 40px;
                     display: flex;
                     overflow: hidden;
                     position: relative;
-                    box-shadow: 1.25px 1.25px 8.79px 0px rgba(0, 0, 0, 0.15);
+                    box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
                     box-sizing: border-box;
-                    align-items: center;
-                    justify-content: center;
+                    align-items: flex-start;
                     border-color: transparent;
-                    border-radius: 15.7px;
+                    border-radius: 50px;
                     background-color: rgba(116, 213, 121, 1);
+                    .bg {
+                        top: 0px;
+                        left: 0px;
+                        width: 329px;
+                        height: 72px;
+                        position: absolute;
+                        object-fit: cover;
+                        border-color: rgba(116, 213, 121, 1);
+                        border-width: 0px;
+                        border-radius: 4px;
+                        background-color: rgba(116, 213, 121, 1);
+                    }
                     .text {
                         color: rgba(255, 255, 255, 1);
+                        width: 329px;
+                        height: auto;
                         position: relative;
-                        font-size: 3vw;
-                        align-self: auto;
+                        font-size: 15px;
+                        align-self: center;
+                        justify-content: center;
                         font-style: normal;
                         text-align: center;
                         font-family: Noto Sans;
-                        font-weight: 800;
+                        font-weight: 700;
                         line-height: normal;
                         font-stretch: normal;
-                        text-decoration: none;
                         text-transform: uppercase;
+                        text-decoration: none;
                     }
                 }
             }

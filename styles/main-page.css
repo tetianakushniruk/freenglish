@@ -456,18 +456,6 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .tests .btn .border {
-    top: 0px;
-    left: 0px;
-    width: 255px;
-    height: 56px;
-    position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: #11b5e4;
-    border-width: 0px;
-    border-radius: 4px;
-  }
   .main-page-container .main-page .sections .tests .btn .explore {
     top: 16px;
     left: 0px;
@@ -482,7 +470,7 @@
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -570,18 +558,6 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .grammar .btn .border {
-    top: 0px;
-    left: 0px;
-    width: 255px;
-    height: 56px;
-    position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: #11b5e4;
-    border-width: 0px;
-    border-radius: 4px;
-  }
   .main-page-container .main-page .sections .grammar .btn .explore {
     top: 16px;
     left: 0px;
@@ -596,7 +572,7 @@
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -684,18 +660,6 @@
     border-width: 2px;
     border-radius: 50px;
   }
-  .main-page-container .main-page .sections .vocabulary .btn .border {
-    top: 0px;
-    left: 0px;
-    width: 255px;
-    height: 56px;
-    position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: #11b5e4;
-    border-width: 0px;
-    border-radius: 4px;
-  }
   .main-page-container .main-page .sections .vocabulary .btn .explore {
     top: 16px;
     left: 0px;
@@ -710,7 +674,7 @@
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1773,6 +1737,7 @@
   .main-page-container .main-page .sections {
     margin-top: 15vw;
     width: 85%;
+    height: calc(1027px - 35vw);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1780,6 +1745,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     position: relative;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1789,29 +1756,31 @@
         flex-shrink: 1;
     border-color: transparent;
   }
-  .main-page-container .main-page .sections .tests {
-    margin-top: 5vw;
-    width: 65vw;
+  .main-page-container .main-page .sections .item {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    border-color: transparent;
   }
-  .main-page-container .main-page .sections .tests .text {
+  .main-page-container .main-page .sections .item .icon {
+    max-width: 200px;
+    position: relative;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main-page-container .main-page .sections .item .icon img {
+    width: 100%;
+    height: auto;
+  }
+  .main-page-container .main-page .sections .item .text {
+    width: 60%;
+    max-width: 350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1820,10 +1789,47 @@
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .main-page-container .main-page .sections .tests .text .btn {
-    width: 15vw;
-    height: 4vw;
+  .main-page-container .main-page .sections .item .text .title {
+    color: black;
+    height: auto;
+    position: relative;
+    font-size: 25px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Heebo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-page-container .main-page .sections .item .text .description {
+    color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 20px;
+    -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Heebo;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-page-container .main-page .sections .item .text .btn {
+    width: 40vw;
+    max-width: 255px;
+    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1837,20 +1843,19 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border-color: #74d579;
     border-style: solid;
-    border-width: 0.63px;
-    border-radius: 15.7px;
+    border-width: 2px;
+    border-radius: 50px;
   }
-  .main-page-container .main-page .sections .tests .text .btn .explore {
-    color: #74d579;
+  .main-page-container .main-page .sections .item .text .btn .explore {
     width: 100%;
     height: auto;
     position: relative;
-    font-size: 2.5vw;
+    font-size: 20px;
     -ms-flex-item-align: auto;
         -ms-grid-row-align: auto;
         align-self: auto;
+    font-style: normal;
     text-align: center;
     font-family: Noto Sans;
     font-weight: 700;
@@ -1858,272 +1863,41 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .main-page-container .main-page .sections .tests .text .description {
-    color: black;
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: 2.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    font-style: normal;
-    text-align: left;
-    font-family: Heebo;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .main-page-container .main-page .sections .tests .text .title {
-    color: black;
-    height: auto;
-    position: relative;
-    font-size: 4.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    font-style: normal;
-    text-align: left;
-    font-family: Heebo;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .main-page-container .main-page .sections .tests .icon {
+  .main-page-container .main-page .sections .item.vocabulary .icon {
     margin-right: 4vw;
-    width: 20vw;
-    height: auto;
-    position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: transparent;
   }
-  .main-page-container .main-page .sections .grammar {
-    margin-top: 5vw;
-    width: 65vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .main-page-container .main-page .sections .item.vocabulary .text .btn {
+    color: #4f66d1;
+  }
+  .main-page-container .main-page .sections .item.grammar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    border-color: transparent;
   }
-  .main-page-container .main-page .sections .grammar .text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .main-page-container .main-page .sections .item.grammar .icon {
+    margin-left: 4vw;
+  }
+  .main-page-container .main-page .sections .item.grammar .text {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    position: relative;
   }
-  .main-page-container .main-page .sections .grammar .text .btn {
-    width: 15vw;
-    height: 4vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-color: #ff5e95;
-    border-style: solid;
-    border-width: 0.63px;
-    border-radius: 15.7px;
-  }
-  .main-page-container .main-page .sections .grammar .text .btn .explore {
-    color: #ff5e95;
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: 2.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    text-align: center;
-    font-family: Noto Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .main-page-container .main-page .sections .grammar .text .description {
-    color: black;
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: 2.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+  .main-page-container .main-page .sections .item.grammar .text .description {
     text-align: right;
-    font-family: Heebo;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
   }
-  .main-page-container .main-page .sections .grammar .text .title {
-    color: black;
-    height: auto;
-    position: relative;
-    font-size: 4.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    font-style: normal;
-    text-align: left;
-    font-family: Heebo;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
+  .main-page-container .main-page .sections .item.grammar .text .btn {
+    color: #ff5e95;
   }
-  .main-page-container .main-page .sections .grammar .icon {
-    margin-left: 4vw;
-    width: 20vw;
-    height: auto;
-    position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: transparent;
-  }
-  .main-page-container .main-page .sections .vocabulary {
-    width: 65vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    border-color: transparent;
-  }
-  .main-page-container .main-page .sections .vocabulary .icon {
+  .main-page-container .main-page .sections .item.tests .icon {
     margin-right: 4vw;
-    width: 20vw;
-    height: auto;
-    position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-color: transparent;
   }
-  .main-page-container .main-page .sections .vocabulary .text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-  }
-  .main-page-container .main-page .sections .vocabulary .text .btn {
-    width: 15vw;
-    height: 4vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-color: #4f66d1;
-    border-style: solid;
-    border-width: 0.63px;
-    border-radius: 15.7px;
-  }
-  .main-page-container .main-page .sections .vocabulary .text .btn .explore {
-    color: #4f66d1;
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: 2.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    text-align: center;
-    font-family: Noto Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .main-page-container .main-page .sections .vocabulary .text .description {
-    color: black;
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: 2.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    text-align: left;
-    font-family: Heebo;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .main-page-container .main-page .sections .vocabulary .text .title {
-    color: black;
-    height: auto;
-    position: relative;
-    font-size: 4.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    font-style: normal;
-    text-align: left;
-    font-family: Heebo;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
+  .main-page-container .main-page .sections .item.tests .text .btn {
+    color: #74d579;
   }
   .main-page-container .main-page .mobile-app {
-    width: 100%;
+    margin-top: 5vw;
+    width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2137,9 +1911,12 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-item-align: center;
+        align-self: center;
     -ms-flex-negative: 1;
         flex-shrink: 1;
-    border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .content {
     position: relative;
@@ -2162,7 +1939,7 @@
   .main-page-container .main-page .mobile-app .content .study {
     color: #222222;
     position: relative;
-    font-size: 3.5vw;
+    font-size: 2rem;
     -ms-flex-item-align: auto;
         -ms-grid-row-align: auto;
         align-self: auto;
@@ -2186,14 +1963,14 @@
         -ms-flex-direction: row;
             flex-direction: row;
     position: relative;
-    font-size: 5vw;
+    font-size: 2.5rem;
     -ms-flex-item-align: auto;
         align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
     font-weight: 800;
-    line-height: 4vw;
+    line-height: 2.2rem;
     font-stretch: normal;
     text-decoration: none;
   }
@@ -2226,7 +2003,7 @@
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .slogan .green-box {
-    width: 20vw;
+    width: 9rem;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2268,7 +2045,7 @@
     margin-bottom: 2vw;
     color: black;
     position: relative;
-    font-size: 1.75vw;
+    font-size: 1.2rem;
     -ms-flex-item-align: auto;
         -ms-grid-row-align: auto;
         align-self: auto;
@@ -2276,7 +2053,6 @@
     text-align: left;
     font-family: Noto Sans;
     font-weight: 500;
-    line-height: 2.5vw;
     font-stretch: normal;
     text-decoration: none;
   }
@@ -2312,9 +2088,9 @@
     position: relative;
     -o-object-fit: cover;
        object-fit: cover;
-    border-color: transparent;
   }
   .main-page-container .main-page .call-to-action {
+    margin-top: 5vw;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2378,42 +2154,57 @@
   }
   .main-page-container .main-page .call-to-action .btn {
     margin-top: 5vw;
-    width: 30vw;
-    height: 7vw;
+    width: 200px;
+    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: relative;
-    -webkit-box-shadow: 1.25px 1.25px 8.79px 0px rgba(0, 0, 0, 0.15);
-            box-shadow: 1.25px 1.25px 8.79px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     border-color: transparent;
-    border-radius: 15.7px;
+    border-radius: 50px;
+    background-color: #74d579;
+  }
+  .main-page-container .main-page .call-to-action .btn .bg {
+    top: 0px;
+    left: 0px;
+    width: 329px;
+    height: 72px;
+    position: absolute;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-color: #74d579;
+    border-width: 0px;
+    border-radius: 4px;
     background-color: #74d579;
   }
   .main-page-container .main-page .call-to-action .btn .text {
     color: white;
+    width: 329px;
+    height: auto;
     position: relative;
-    font-size: 3vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    font-size: 15px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
-    text-decoration: none;
     text-transform: uppercase;
+    text-decoration: none;
   }
   .main-page-container .main-page .footer {
     display: none;
