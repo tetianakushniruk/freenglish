@@ -91,6 +91,9 @@
                         text-decoration: none;
                     }
                 }
+                .logo {
+                    display: none;
+                }
             }
             .banner {
                 width: 100%;
@@ -1181,6 +1184,9 @@
                 font-weight: 800;
                 border-color: transparent;
                 background-color: rgba(49, 77, 202, 1);
+                .logo{
+                    display: none;
+                }
             }
             .banner {
                 width: 100%;

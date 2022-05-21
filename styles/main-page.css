@@ -9,42 +9,25 @@
     width: 100%;
     min-height: 2951px;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
     max-width: 1440px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    box-sizing: border-box;
+    align-items: center;
     border-color: transparent;
     background-color: white;
   }
   .main-page-container .main-page .header {
     width: 100%;
     max-width: 1440px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 105px;
-            flex: 0 1 105px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 105px;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
     border-color: transparent;
     background-color: #314dca;
   }
@@ -52,27 +35,18 @@
     top: 42.5px;
     width: 437px;
     height: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    box-sizing: border-box;
+    align-items: center;
     border-color: transparent;
   }
   .main-page-container .main-page .header .menu .home {
     color: #ff5e95;
     height: auto;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -85,9 +59,7 @@
     color: white;
     height: auto;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -100,9 +72,7 @@
     color: white;
     height: auto;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -115,9 +85,7 @@
     color: white;
     height: auto;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -126,29 +94,24 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  .main-page-container .main-page .header .logo {
+    display: none;
+  }
   .main-page-container .main-page .banner {
     width: 100%;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 calc(1440px - 55vw);
-            flex: 0 1 calc(1440px - 55vw);
+    flex: 0 1 calc(1440px - 55vw);
     max-width: 1440px;
     min-height: 669px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
     background-color: #314dca;
   }
   .main-page-container .main-page .banner .curve-mob,
-  .main-page-container .main-page .banner .bg-add {
+.main-page-container .main-page .banner .bg-add {
     display: none;
   }
   .main-page-container .main-page .banner .bg .slogan1 {
@@ -159,9 +122,7 @@
     height: auto;
     position: absolute;
     font-size: 40px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -179,9 +140,7 @@
     height: auto;
     position: absolute;
     font-size: 40px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -198,8 +157,7 @@
     width: 649px;
     height: auto;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .banner .bg .logo {
@@ -209,9 +167,7 @@
     height: auto;
     position: absolute;
     font-size: 4.5rem;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -225,18 +181,12 @@
     left: 125px;
     width: 255px;
     height: 56px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-            box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: transparent;
     border-radius: 50px;
     background-color: #314dca;
@@ -247,8 +197,7 @@
     width: 255px;
     height: 56px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: #314dca;
     border-width: 0px;
     border-radius: 4px;
@@ -262,9 +211,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -278,21 +225,12 @@
     margin-top: 60px;
     max-width: 1154px;
     width: 100%;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 241px;
-            flex: 0 1 241px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 241px;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .welcome .pink-box {
@@ -300,8 +238,7 @@
     width: 380px;
     height: 90px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #ff5e95;
   }
@@ -311,9 +248,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -326,9 +261,7 @@
     color: #222222;
     width: 1154px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-weight: 400px;
@@ -339,9 +272,7 @@
     color: white;
     width: 1154px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-weight: 900;
@@ -357,9 +288,7 @@
     position: relative;
     font-size: 36px;
     font-style: normal;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     text-align: center;
     font-family: Noto Sans;
     font-weight: 400;
@@ -370,17 +299,11 @@
   .main-page-container .main-page .welcome .ellipses {
     width: 104px;
     height: 123px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .welcome .ellipses .big {
@@ -406,51 +329,31 @@
     margin-top: 60px;
     width: 100%;
     max-width: 1148px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 345px;
-            flex: 0 1 345px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 345px;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
   }
   .main-page-container .main-page .sections .item.tests {
     width: 333px;
     height: 334.6px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
   }
   .main-page-container .main-page .sections .item.tests .btn {
     top: 278.6px;
     left: 24px;
     width: 255px;
     height: 56px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: #74d579;
     border-style: solid;
     border-width: 2px;
@@ -464,9 +367,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -483,9 +384,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -502,9 +401,7 @@
     height: auto;
     position: absolute;
     font-size: 14px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -519,40 +416,28 @@
     width: 201px;
     height: 201px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .sections .item.grammar {
     width: 333px;
     height: 334px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
   }
   .main-page-container .main-page .sections .item.grammar .btn {
     top: 278px;
     left: 23px;
     width: 255px;
     height: 56px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: #ff5e95;
     border-style: solid;
     border-width: 2px;
@@ -566,9 +451,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -585,9 +468,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -604,9 +485,7 @@
     height: auto;
     position: absolute;
     font-size: 14px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -621,40 +500,28 @@
     width: 201px;
     height: 201px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .sections .item.vocabulary {
     width: 333px;
     height: 334px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
   }
   .main-page-container .main-page .sections .item.vocabulary .btn {
     top: 278px;
     left: 24px;
     width: 255px;
     height: 56px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: #4f66d1;
     border-style: solid;
     border-width: 2px;
@@ -668,9 +535,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -687,9 +552,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -706,9 +569,7 @@
     height: auto;
     position: absolute;
     font-size: 14px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -723,37 +584,23 @@
     width: 201px;
     height: 201px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app {
     margin-top: 60px;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-sizing: border-box;
+    justify-content: center;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .content {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .main-page-container .main-page .mobile-app .content .study {
     color: #222222;
@@ -761,9 +608,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -776,17 +621,11 @@
   .main-page-container .main-page .mobile-app .content .slogan {
     color: #74d579;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
     font-size: 58px;
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -796,21 +635,14 @@
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .slogan .any {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
   }
   .main-page-container .main-page .mobile-app .content .slogan .any .text1 {
     color: #74d579;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -818,9 +650,7 @@
   .main-page-container .main-page .mobile-app .content .slogan .any .text3 {
     color: #74d579;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -829,8 +659,7 @@
     width: 213px;
     height: 108px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #4bcd5c;
   }
@@ -838,9 +667,7 @@
     color: white;
     width: 427px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -849,9 +676,7 @@
     color: white;
     width: 427px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -862,9 +687,7 @@
     height: auto;
     position: relative;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -874,34 +697,26 @@
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .mob-app {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
   }
   .main-page-container .main-page .mobile-app .content .mob-app .googleplay {
     width: 187px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .content .mob-app .appstore {
     width: 176px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .content .curve {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     width: 25vw;
     position: relative;
     content: url("../img/mobappdottedcurve.svg");
@@ -910,23 +725,17 @@
     width: 50vw;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .call-to-action {
     margin-bottom: 140px;
     width: 100%;
     max-width: 1154px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 225px;
-            flex: 1 0 225px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1 0 225px;
     display: flex;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
   .main-page-container .main-page .call-to-action .description {
     top: 84px;
@@ -936,9 +745,7 @@
     height: auto;
     position: absolute;
     font-size: 24px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Rubik;
@@ -953,8 +760,7 @@
     width: 837px;
     height: 90px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #ff5e95;
   }
@@ -966,9 +772,7 @@
     height: auto;
     position: absolute;
     font-size: 64px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -982,18 +786,12 @@
     left: 399px;
     width: 329px;
     height: 72px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-            box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: transparent;
     border-radius: 50px;
     background-color: #74d579;
@@ -1004,8 +802,7 @@
     width: 329px;
     height: 72px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: #74d579;
     border-width: 0px;
     border-radius: 4px;
@@ -1019,9 +816,7 @@
     height: auto;
     position: absolute;
     font-size: 28px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1034,63 +829,34 @@
   .main-page-container .main-page .footer {
     width: 100%;
     max-width: 1440px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 493px;
-            flex: 0 1 493px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 493px;
     display: flex;
     position: relative;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-shrink: 1;
     border-color: transparent;
     background-color: #314dca;
   }
   .main-page-container .main-page .footer .sections {
     margin-right: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 536px;
-            flex: 0 1 536px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex: 0 1 536px;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
   .main-page-container .main-page .footer .sections .service-section {
     width: 84px;
     height: 240px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .sections .service-section .service {
@@ -1100,9 +866,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1118,9 +882,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1136,9 +898,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1154,9 +914,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1172,9 +930,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1190,9 +946,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1204,21 +958,12 @@
   .main-page-container .main-page .footer .sections .company-section {
     width: 82px;
     height: 160px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .sections .company-section .company {
@@ -1228,9 +973,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1246,9 +989,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1264,9 +1005,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1282,9 +1021,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1296,21 +1033,12 @@
   .main-page-container .main-page .footer .sections .privacy-section {
     width: 97px;
     height: 118px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .sections .privacy-section .privacy {
@@ -1320,9 +1048,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1339,9 +1065,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1354,21 +1078,11 @@
     margin-left: 120px;
     margin-right: 90px;
     min-height: 310px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 370px;
-            flex: 0 1 370px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-item-align: center;
-        align-self: center;
+    flex: 0 1 370px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
   }
   .main-page-container .main-page .footer .side-info .slogan {
     color: #74d579;
@@ -1376,9 +1090,7 @@
     height: auto;
     position: relative;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1393,9 +1105,7 @@
     height: auto;
     position: relative;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -1408,33 +1118,25 @@
     width: 194px;
     height: 34px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .side-info .mob-app {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .main-page-container .main-page .footer .side-info .mob-app .googleplay {
     width: 187px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .side-info .mob-app .appstore {
     width: 176px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .footer .side-info .logo {
@@ -1442,9 +1144,7 @@
     height: auto;
     position: relative;
     font-size: 72px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1457,27 +1157,18 @@
     display: none;
   }
 }
-
 @media only screen and (max-width: 1027px) {
   .main-page-container {
     min-height: 100vh;
   }
   .main-page-container .main-page {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: transparent;
     background-color: white;
   }
@@ -1486,8 +1177,6 @@
   }
   .main-page-container .main-page .header-mobile {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
     font-style: normal;
@@ -1496,24 +1185,18 @@
     border-color: transparent;
     background-color: #314dca;
   }
+  .main-page-container .main-page .header-mobile .logo {
+    display: none;
+  }
   .main-page-container .main-page .banner {
     width: 100%;
     height: 135vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .banner .curve-mob {
@@ -1536,21 +1219,13 @@
     right: 10vw;
     width: 30vw;
     height: 7vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: absolute;
-    -webkit-box-shadow: 1.25px 1.25px 8.8px 0px rgba(0, 0, 0, 0.15);
-            box-shadow: 1.25px 1.25px 8.8px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-shadow: 1.25px 1.25px 8.8px 0px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     border-color: #314dca;
     border-width: 0px;
     border-radius: 50px;
@@ -1560,9 +1235,7 @@
     color: white;
     height: auto;
     font-size: 3vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1576,8 +1249,6 @@
     width: 100%;
     height: 105vw;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     border-color: transparent;
     background-color: #314dca;
@@ -1588,9 +1259,7 @@
     color: white;
     position: absolute;
     font-size: 4vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1605,9 +1274,7 @@
     color: #ff5e95;
     position: absolute;
     font-size: 4vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1622,8 +1289,7 @@
     width: 80vw;
     height: auto;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .banner .bg .logo {
@@ -1633,9 +1299,7 @@
     height: auto;
     position: absolute;
     font-size: 4.5rem;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1647,18 +1311,11 @@
   .main-page-container .main-page .welcome {
     margin-top: 15vw;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .welcome .pink-box {
@@ -1666,8 +1323,7 @@
     width: 43vw;
     height: 10vw;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #ff5e95;
   }
@@ -1677,9 +1333,7 @@
     height: auto;
     position: relative;
     font-size: 7vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1692,9 +1346,7 @@
     color: #222222;
     width: 363px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-weight: 400;
@@ -1705,9 +1357,7 @@
     color: white;
     width: 363px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-weight: 800;
@@ -1720,9 +1370,7 @@
     height: auto;
     position: relative;
     font-size: 4vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1738,41 +1386,25 @@
     margin-top: 15vw;
     width: 85%;
     height: calc(1027px - 35vw);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-self: center;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .sections .item {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .main-page-container .main-page .sections .item .icon {
     max-width: 200px;
     position: relative;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
   }
   .main-page-container .main-page .sections .item .icon img {
     width: 100%;
@@ -1781,26 +1413,17 @@
   .main-page-container .main-page .sections .item .text {
     width: 60%;
     max-width: 350px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .main-page-container .main-page .sections .item .text .title {
     color: black;
     height: auto;
     position: relative;
     font-size: 25px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -1815,9 +1438,7 @@
     height: auto;
     position: relative;
     font-size: 20px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Heebo;
@@ -1830,19 +1451,12 @@
     width: 40vw;
     max-width: 255px;
     height: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-width: 2px;
     border-radius: 50px;
@@ -1852,9 +1466,7 @@
     height: auto;
     position: relative;
     font-size: 20px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1870,18 +1482,13 @@
     color: #4f66d1;
   }
   .main-page-container .main-page .sections .item.grammar {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
   .main-page-container .main-page .sections .item.grammar .icon {
     margin-left: 4vw;
   }
   .main-page-container .main-page .sections .item.grammar .text {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
   }
   .main-page-container .main-page .sections .item.grammar .text .description {
     text-align: right;
@@ -1898,39 +1505,22 @@
   .main-page-container .main-page .mobile-app {
     margin-top: 5vw;
     width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-self: center;
+    flex-shrink: 1;
   }
   .main-page-container .main-page .mobile-app .content {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .main-page-container .main-page .mobile-app .content .curve {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     margin-right: 5vw;
     width: 30vw;
     position: relative;
@@ -1940,9 +1530,7 @@
     color: #222222;
     position: relative;
     font-size: 2rem;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1955,17 +1543,11 @@
     color: #74d579;
     width: 100%;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
     font-size: 2.5rem;
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1975,29 +1557,20 @@
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .slogan .any {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
   }
   .main-page-container .main-page .mobile-app .content .slogan .any .text1 {
     color: #74d579;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .slogan .any .text3 {
     color: #74d579;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -2005,16 +1578,10 @@
   .main-page-container .main-page .mobile-app .content .slogan .green-box {
     width: 9rem;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #4bcd5c;
   }
@@ -2022,9 +1589,7 @@
     color: white;
     width: 134px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -2033,9 +1598,7 @@
     color: white;
     width: 134px;
     height: auto;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     text-align: left;
     font-stretch: normal;
     text-decoration: none;
@@ -2046,9 +1609,7 @@
     color: black;
     position: relative;
     font-size: 1.2rem;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -2057,56 +1618,39 @@
     text-decoration: none;
   }
   .main-page-container .main-page .mobile-app .content .mob-app {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
   }
   .main-page-container .main-page .mobile-app .content .mob-app .appstore {
     width: 15vw;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .content .mob-app .googleplay {
     width: 16vw;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .main-page-container .main-page .mobile-app .illustr {
     width: 60%;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .main-page-container .main-page .call-to-action {
     margin-top: 5vw;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .main-page-container .main-page .call-to-action .description {
@@ -2116,9 +1660,7 @@
     height: auto;
     position: relative;
     font-size: 3vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Rubik;
@@ -2130,8 +1672,7 @@
     width: 80vw;
     height: 10vw;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
     background-color: #ff5e95;
   }
@@ -2140,9 +1681,7 @@
     height: auto;
     position: relative;
     font-size: 6.5vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -2157,18 +1696,12 @@
     width: 50vw;
     max-width: 200px;
     height: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: relative;
-    -webkit-box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-            box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    box-shadow: 4px 4px 28px 0px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    align-items: flex-start;
     border-color: transparent;
     border-radius: 50px;
     background-color: #74d579;
@@ -2179,8 +1712,7 @@
     width: 329px;
     height: 72px;
     position: absolute;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: #74d579;
     border-width: 0px;
     border-radius: 4px;
@@ -2192,12 +1724,8 @@
     height: auto;
     position: relative;
     font-size: calc(10px + 0.5rem);
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-self: center;
+    justify-content: center;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -2214,21 +1742,12 @@
     margin-top: 10vw;
     width: 100%;
     height: 25vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 1;
     border-color: transparent;
     border-radius: 125px 125px 0 0;
     background-color: #314dca;
@@ -2238,9 +1757,7 @@
     margin-bottom: 5vw;
     position: relative;
     font-size: 2vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Rubik;
@@ -2253,9 +1770,7 @@
     color: white;
     position: relative;
     font-size: 7vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -2269,9 +1784,9 @@
     width: 25vw;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
 }
+
 /*# sourceMappingURL=main-page.css.map */
