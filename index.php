@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="english">
@@ -45,6 +43,9 @@
                         class="illustr"
                     />
                 </div>
+                <a class="btn" href="vocabulary.php">
+                    <span class="text">Start studying</span>
+                </a>
                 <div class="bg-add">
                     <a class="btn" href="vocabulary.php">
                         <span class="text">Start studying</span>

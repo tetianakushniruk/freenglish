@@ -1308,6 +1308,9 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  .main-page-container .main-page .banner .btn {
+    display: none;
+  }
   .main-page-container .main-page .welcome {
     margin-top: 15vw;
     width: 100%;
