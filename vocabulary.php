@@ -66,7 +66,7 @@
               <div class="item animals">Animals</div>
             </div>
           </div>
-          <div class="suggest-btn">Suggest a topic</div>
+          <a class="suggest-btn" href="suggest_topic.php">Suggest a topic</a>
           <?php require "footer.php"?>
         </div>
       </div>

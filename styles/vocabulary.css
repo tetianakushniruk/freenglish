@@ -8,66 +8,37 @@
   .vocabulary-container .vocabulary-page {
     width: 100%;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
     max-width: 1440px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    box-sizing: border-box;
+    align-items: center;
     border-color: transparent;
     background-color: white;
   }
   .vocabulary-container .vocabulary-page .header {
     width: 100%;
     max-width: 1440px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 105px;
-            flex: 0 1 105px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 105px;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
     border-color: transparent;
     background-color: #314dca;
   }
   .vocabulary-container .vocabulary-page .header .menu {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 439px;
-            flex: 0 1 439px;
+    flex: 0 1 439px;
     height: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    box-sizing: border-box;
+    justify-content: space-between;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .header .menu .home {
@@ -124,9 +95,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -140,18 +109,11 @@
   }
   .vocabulary-container .vocabulary-page .title {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .title .description {
@@ -159,9 +121,7 @@
     height: auto;
     position: relative;
     font-size: 24px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -175,9 +135,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -189,35 +147,20 @@
   .vocabulary-container .vocabulary-page .topics {
     width: 100%;
     margin-top: 5vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     position: relative;
   }
   .vocabulary-container .vocabulary-page .topics .row {
     width: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    align-self: center;
+    justify-content: space-around;
   }
   .vocabulary-container .vocabulary-page .topics .row .item:hover {
     -webkit-transform: scale(1.2);
@@ -228,9 +171,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -245,8 +186,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -260,8 +200,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -276,8 +215,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -291,8 +229,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -306,9 +243,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -322,8 +257,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -337,8 +271,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -352,9 +285,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -368,8 +299,7 @@
     height: auto;
     position: relative;
     font-size: 96px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -383,8 +313,7 @@
     height: auto;
     position: relative;
     font-size: 72px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -398,8 +327,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -413,9 +341,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -429,8 +355,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -444,8 +369,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -459,8 +383,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -474,8 +397,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -489,8 +411,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -504,23 +425,15 @@
     height: 56px;
     margin-top: 5vw;
     margin-bottom: 7vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     color: #ff5e95;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -529,68 +442,38 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 50px;
-    z-index: 2;
   }
   .vocabulary-container .vocabulary-page .footer {
     width: 100%;
     max-width: 1440px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 493px;
-            flex: 0 1 493px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 0 1 493px;
     display: flex;
     position: relative;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-shrink: 1;
     border-color: transparent;
     background-color: #314dca;
   }
   .vocabulary-container .vocabulary-page .footer .sections {
     margin-right: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 536px;
-            flex: 0 1 536px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex: 0 1 536px;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
   .vocabulary-container .vocabulary-page .footer .sections .service-section {
     width: 84px;
     height: 240px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .sections .service-section .service {
@@ -600,9 +483,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -618,9 +499,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -636,9 +515,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -654,9 +531,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -672,9 +547,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -690,9 +563,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -704,21 +575,12 @@
   .vocabulary-container .vocabulary-page .footer .sections .company-section {
     width: 82px;
     height: 160px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .sections .company-section .company {
@@ -728,9 +590,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -746,9 +606,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -764,9 +622,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -782,9 +638,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -796,21 +650,12 @@
   .vocabulary-container .vocabulary-page .footer .sections .privacy-section {
     width: 97px;
     height: 118px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .sections .privacy-section .privacy {
@@ -820,9 +665,7 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -839,9 +682,7 @@
     height: auto;
     position: absolute;
     font-size: 16px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -854,21 +695,11 @@
     margin-left: 120px;
     margin-right: 90px;
     min-height: 310px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 370px;
-            flex: 0 1 370px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-item-align: center;
-        align-self: center;
+    flex: 0 1 370px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
   }
   .vocabulary-container .vocabulary-page .footer .side-info .slogan {
     color: #74d579;
@@ -876,9 +707,7 @@
     height: auto;
     position: relative;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -893,9 +722,7 @@
     height: auto;
     position: relative;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Rubik;
@@ -908,33 +735,25 @@
     width: 194px;
     height: 34px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .side-info .mob-app {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .vocabulary-container .vocabulary-page .footer .side-info .mob-app .googleplay {
     width: 187px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .side-info .mob-app .appstore {
     width: 176px;
     height: 52px;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .footer .side-info .logo {
@@ -942,9 +761,7 @@
     height: auto;
     position: relative;
     font-size: 72px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -957,7 +774,6 @@
     display: none;
   }
 }
-
 @media only screen and (max-width: 1027px) {
   .vocabulary-container {
     min-height: 100vh;
@@ -965,21 +781,13 @@
   .vocabulary-container .vocabulary-page {
     width: 100%;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
     max-width: 1440px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    box-sizing: border-box;
+    align-items: center;
     border-color: transparent;
     background-color: white;
   }
@@ -988,13 +796,8 @@
   }
   .vocabulary-container .vocabulary-page .header-mobile {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
     font-style: normal;
     font-family: Noto Sans;
@@ -1007,9 +810,7 @@
     color: white;
     position: relative;
     font-size: 4rem;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1023,18 +824,11 @@
   }
   .vocabulary-container .vocabulary-page .title {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    flex-shrink: 1;
     border-color: transparent;
   }
   .vocabulary-container .vocabulary-page .title .description {
@@ -1042,9 +836,7 @@
     height: auto;
     position: relative;
     font-size: 24px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1058,9 +850,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1072,35 +862,20 @@
   .vocabulary-container .vocabulary-page .topics {
     width: 100%;
     margin-top: 5vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     position: relative;
   }
   .vocabulary-container .vocabulary-page .topics .row {
     width: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    align-self: center;
+    justify-content: space-around;
   }
   .vocabulary-container .vocabulary-page .topics .row .item:hover {
     -webkit-transform: scale(1.2);
@@ -1111,9 +886,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1128,8 +901,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1143,8 +915,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1159,8 +930,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1174,8 +944,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1189,9 +958,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1205,8 +972,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1220,8 +986,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1235,9 +1000,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1251,8 +1014,7 @@
     height: auto;
     position: relative;
     font-size: 96px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1266,8 +1028,7 @@
     height: auto;
     position: relative;
     font-size: 72px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1281,8 +1042,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1296,9 +1056,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1312,8 +1070,7 @@
     height: auto;
     position: relative;
     font-size: 36px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1327,8 +1084,7 @@
     height: auto;
     position: relative;
     font-size: 40px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1342,8 +1098,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1357,8 +1112,7 @@
     height: auto;
     position: relative;
     font-size: 48px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1372,8 +1126,7 @@
     height: auto;
     position: relative;
     font-size: 64px;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     font-style: normal;
     text-align: left;
     font-family: Noto Sans;
@@ -1387,23 +1140,15 @@
     height: 56px;
     margin-top: 5vw;
     margin-bottom: 7vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     color: #ff5e95;
     font-size: 18px;
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1421,21 +1166,12 @@
     margin-top: 10vw;
     width: 100%;
     height: 25vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 1;
     border-color: transparent;
     border-radius: 125px 125px 0 0;
     background-color: #314dca;
@@ -1445,9 +1181,7 @@
     margin-bottom: 5vw;
     position: relative;
     font-size: 2vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Rubik;
@@ -1460,9 +1194,7 @@
     color: white;
     position: relative;
     font-size: 7vw;
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
+    align-self: auto;
     font-style: normal;
     text-align: center;
     font-family: Noto Sans;
@@ -1476,9 +1208,9 @@
     width: 25vw;
     height: auto;
     position: relative;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-color: transparent;
   }
 }
+
 /*# sourceMappingURL=vocabulary.css.map */
