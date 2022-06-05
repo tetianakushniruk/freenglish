@@ -45,7 +45,6 @@
             </div>
             <?php } ?>
           </div>
-          <a class="suggest-btn" href="suggest_topic.php">Suggest a topic</a>
           <?php require "footer.php"?>
         </div>
       </div>
