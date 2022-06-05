@@ -38,32 +38,32 @@
           </div>
           <div class="topics">
             <div class="row" style="min-height: 120px;">
-              <div class="item medicine">Medicine</div>
-              <div class="item music">Music</div>
-              <div class="item numbers">Numbers</div>
-              <div class="item sport">Sport</div>
+              <a class="item medicine" href="vocabulary_info.php">Medicine</a>
+              <a class="item music" href="vocabulary_info.php">Music</a>
+              <a class="item numbers" href="vocabulary_info.php">Numbers</a>
+              <a class="item sport" href="vocabulary_info.php">Sport</a>
             </div>
             <div class="row" style="min-height: 110px;">
-              <div class="item weather">Weather</div>
-              <div class="item time">Time</div>
-              <div class="item criminals">Criminals</div>
+              <a class="item weather" href="vocabulary_info.php">Weather</a>
+              <a class="item time" href="vocabulary_info.php">Time</a>
+              <a class="item criminals" href="vocabulary_info.php">Criminals</a>
             </div>  
             <div class="row" style="min-height: 80px;">
-              <div class="item movies">Movies</div>
-              <div class="item holidays">Holidays</div>
-              <div class="item world">World</div>
+              <a class="item movies" href="vocabulary_info.php">Movies</a>
+              <a class="item holidays" href="vocabulary_info.php">Holidays</a>
+              <a class="item world" href="vocabulary_info.php">World</a>
             </div>
             <div class="row" style="min-height: 115px;">
-              <div class="item computer">Computer</div>
-              <div class="item job">Job</div>
-              <div class="item food">Food</div>
-              <div class="item colours">Colours</div>
+              <a class="item computer" href="vocabulary_info.php">Computer</a>
+              <a class="item job" href="vocabulary_info.php">Job</a>
+              <a class="item food" href="vocabulary_info.php">Food</a>
+              <a class="item colours" href="vocabulary_info.php">Colours</a>
             </div>
             <div class="row" style="min-height: 120px;">
-              <div class="item family">Family</div>
-              <div class="item hobbies">Hobbies</div>
-              <div class="item body">Body</div>
-              <div class="item animals">Animals</div>
+              <a class="item family" href="vocabulary_info.php">Family</a>
+              <a class="item hobbies" href="vocabulary_info.php">Hobbies</a>
+              <a class="item body" href="vocabulary_info.php">Body</a>
+              <a class="item animals" href="vocabulary_info.php">Animals</a>
             </div>
           </div>
           <a class="suggest-btn" href="suggest_topic.php">Suggest a topic</a>

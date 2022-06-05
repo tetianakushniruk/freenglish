@@ -39,7 +39,7 @@
             </span>
           </div>
           <div class="topics">
-            <div class="item verbtobe">
+            <a class="item verbtobe" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Verb</span>
@@ -55,8 +55,8 @@
                 <br />
                 <span>With Usage and Examples</span>
               </span>
-            </div>
-            <div class="item modalcan">
+            </a>
+            <a class="item modalcan" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Modal</span>
@@ -67,8 +67,8 @@
               <span class="descr">
                 Modal “CAN” – With Usage and Examples
               </span>
-            </div>
-            <div class="item pressimple">
+            </a>
+            <a class="item pressimple" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Present</span>
@@ -82,8 +82,8 @@
                 <br />
                 <span>– With Usage and Examples</span>
               </span>
-            </div>
-            <div class="item prescontin">
+            </a>
+            <a class="item prescontin" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Present</span>
@@ -99,8 +99,8 @@
               <span class="descr">
                 Present Continuous – With Usage and Examples
               </span>
-            </div>
-            <div class="item futuresimple">
+            </a>
+            <a class="item futuresimple" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Future</span>
@@ -112,8 +112,8 @@
               <span class="descr">
                 Future Simple – With Usage and Examples
               </span>
-            </div>
-            <div class="item pastsimple">
+            </a>
+            <a class="item pastsimple" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Past</span>
@@ -125,8 +125,8 @@
               <span class="descr">
                 Past Simple – With Usage and Examples
               </span>
-            </div>
-            <div class="item pastcontin">
+            </a>
+            <a class="item pastcontin" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Past</span>
@@ -142,8 +142,8 @@
               <span class="descr">
                 Past Continuous – With Usage and Examples
               </span>
-            </div>
-            <div class="item presperf">
+            </a>
+            <a class="item presperf" href="grammar_info.php">
               <div class="logo">
                 <span class="text1">
                   <span>Present</span>
@@ -155,8 +155,8 @@
               <span class="descr">
                 Present Perfect – With Usage and Examples
               </span>
-            </div>
-            <div class="item begoingto">
+            </a>
+            <a class="item begoingto" href="grammar_info.php">
                 <div class="logo">
                   <span class="text1">
                     <span>“Be</span>
@@ -171,7 +171,7 @@
                   <br />
                   <span>With Usage and Examples</span>
                 </span>
-            </div>
+            </a>
           </div>
           <?php require "footer.php"?>
         </div>
